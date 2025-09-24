@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Welcome to My Blog – Mikkel Christensen - Data Science Portfolio</title>
+<title>My Blog – Mikkel Christensen - Data Science Portfolio</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -104,6 +104,35 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -191,7 +220,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#hello-im-mikkel-christensen" id="toc-hello-im-mikkel-christensen" class="nav-link active" data-scroll-target="#hello-im-mikkel-christensen">Hello! I’m Mikkel Christensen 👋</a></li>
+  <li><a href="#stats-and-the-diversification-of-risk" id="toc-stats-and-the-diversification-of-risk" class="nav-link active" data-scroll-target="#stats-and-the-diversification-of-risk">Stats and the diversification of risk</a>
+  <ul class="collapse">
+  <li><a href="#what-is-diversification-of-risk" id="toc-what-is-diversification-of-risk" class="nav-link" data-scroll-target="#what-is-diversification-of-risk">What is Diversification of risk?</a></li>
+  <li><a href="#how-does-this-apply-in-the-world-of-finance-and-can-it-apply-elsewhere" id="toc-how-does-this-apply-in-the-world-of-finance-and-can-it-apply-elsewhere" class="nav-link" data-scroll-target="#how-does-this-apply-in-the-world-of-finance-and-can-it-apply-elsewhere">How does this apply in the world of finance and can it apply elsewhere?</a></li>
+  <li><a href="#the-maths" id="toc-the-maths" class="nav-link" data-scroll-target="#the-maths">The Maths</a>
+  <ul class="collapse">
+  <li><a href="#the-sharpe-ratio" id="toc-the-sharpe-ratio" class="nav-link" data-scroll-target="#the-sharpe-ratio">The Sharpe Ratio</a></li>
+  </ul></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -200,7 +237,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<div class="quarto-title-block"><div><h1 class="title">Welcome to My Blog</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
+<div class="quarto-title-block"><div><h1 class="title">My Blog</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
 </div>
 
 
@@ -217,12 +254,30 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<section id="hello-im-mikkel-christensen" class="level1">
-<h1>Hello! I’m Mikkel Christensen 👋</h1>
+<section id="stats-and-the-diversification-of-risk" class="level1">
+<h1>Stats and the diversification of risk</h1>
+<section id="what-is-diversification-of-risk" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-diversification-of-risk">What is Diversification of risk?</h2>
+</section>
+<section id="how-does-this-apply-in-the-world-of-finance-and-can-it-apply-elsewhere" class="level2">
+<h2 class="anchored" data-anchor-id="how-does-this-apply-in-the-world-of-finance-and-can-it-apply-elsewhere">How does this apply in the world of finance and can it apply elsewhere?</h2>
+</section>
+<section id="the-maths" class="level2">
+<h2 class="anchored" data-anchor-id="the-maths">The Maths</h2>
+<section id="the-sharpe-ratio" class="level3">
+<h3 class="anchored" data-anchor-id="the-sharpe-ratio">The Sharpe Ratio</h3>
+<p><span class="math inline">\(R_p\)</span> = The porfolios return<br>
+<span class="math inline">\(R_f\)</span> = Risk free rate<br>
+<span class="math inline">\(\sigma_p\)</span> = Standard Deviation of the portfolios excess return</p>
+<p><span class="math display">\[
+The Sharpe Ration = (R_p - R_f)/\sigma_p
+\]</span></p>
 
 
 <!-- -->
 
+</section>
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -678,10 +733,26 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   });
   </script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "Welcome to My Blog"</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "My Blog"</span></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu"># Hello! I'm Mikkel Christensen 👋</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu"># Stats and the diversification of risk</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="fu">## What is Diversification of risk?</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="fu">## How does this apply in the world of finance and can it apply elsewhere?</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="fu">## The Maths</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="fu">### The Sharpe Ratio</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>$R_p$ = The porfolios return  </span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>$R_f$ = Risk free rate  </span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>$\sigma_p$ = Standard Deviation of the portfolios excess return  </span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>$$</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>The Sharpe Ratio = (R_p - R_f)/\sigma_p</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>$$</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
 

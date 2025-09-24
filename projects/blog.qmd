@@ -1,6 +1,21 @@
 ---
-title: "Welcome to My Blog"
+title: "My Blog"
 ---
 
-# Hello! I'm Mikkel Christensen 👋
+# Stats and the diversification of risk
 
+## What is Diversification of risk?
+
+## How does this apply in the world of finance and can it apply elsewhere?
+
+## The Maths
+
+### The Sharpe Ratio
+
+$R_p$ = The porfolios return  
+$R_f$ = Risk free rate  
+$\sigma_p$ = Standard Deviation of the portfolios excess return  
+
+$$
+The Sharpe Ratio = (R_p - R_f)/\sigma_p
+$$

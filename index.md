@@ -29,7 +29,7 @@ I built this site using [Quarto](https://quarto.org/) and host it on [GitHub Pag
 
 ::: {.g-col-6}
 ### [Blog](projects/blog.qmd)
-Learn how I explore datasets to find interesting patterns and answer questions.
+Learn about a topic that interests me!
 :::
 
 ::: {.g-col-6}
