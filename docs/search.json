@@ -124,13 +124,34 @@
     "href": "projects/blog.html",
     "title": "My Blog",
     "section": "",
-    "text": "\\(R_p\\) = The porfolios return\n\\(R_f\\) = Risk free rate\n\\(\\sigma_p\\) = Standard Deviation of the portfolios excess return\n\\[\nThe Sharpe Ration = (R_p - R_f)/\\sigma_p\n\\]"
+    "text": "Diversification of risk is the idea that as you ‘put your eggs in more baskets’ you minimize the overall risk. This is generally discussed within the investing community as a way to minimize the risk of losing large portions of your money. This principle is widely used and understood but I would like to look at the statistics behind it to gain a better understanding.\n\n\n\nThe idea behind this is that as you increase the number of investments the chances of more then one dropping significatly decreases drastically. If one of your stocks move down signifiactly, say 25% but it only makes up 5% of your portfolio then you only end up losing 1.25% of your total portfolio value which is a much more manageable portion. This also increases the chance of one of your stocks moving up a significant amount. While diversification does minimize the return you would receive from an increase it increases the chances of you gaining some value in your portfolio. What is does is take your portfolio risk and minimize it. You are stuck with something called Market risk but diversification gets rid of most of your portfolio specific risk.\n\n\n\nA graph showing market risk vs portfolio risk\n\n\n\n\n\nTo start I am going to lay out an example for us to demonstrate this principle.\nWithout diversification \n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\n#Parameters to change\nportfolio_size = 100000\nnum_positions = 20\navg_return = 0.07\nvolatility = .20\nsimulations = 10000\n\n#Simulate returns\nweights = np.ones(num_positions)/num_positions\nreturns = np.random.normal(avg_return, volatility, (simulations, num_positions))\nportfolio_returns = (returns @ weights) * portfolio_size\n\n#Results\nmean_return = np.mean(portfolio_returns)/portfolio_size\nstan_dev = np.std(portfolio_returns)/portfolio_size\n\nprint(f\"The mean return for the portfolios is {mean_return}\")\nprint(f\"The standard deviation for the portfolios is {stan_dev}\")\n\n#plot the results\nplt.hist(portfolio_returns/portfolio_size, bins=50, alpha=0.7, color=\"black\")\nplt.axvline(mean_return, color=\"red\", linestyle=\"dashed\", linewidth=2, label=\"Mean\")\nplt.title(f\"Distribution of Portfolio Returns ({num_positions} positions)\")\nplt.xlabel(\"Return\")\nplt.ylabel(\"Frequency\")\nplt.legend()\nplt.show()\n\n\nThe mean return for the portfolios is 0.06931503040424644\nThe standard deviation for the portfolios is 0.044831977135322616\n\n\n\n\n\n\n\n\n\nWith diversification \n\n\nThe Sharpe Ratio is a mathmatical formula used to measure risk against the expected return.\n\\(R_p\\) = The porfolios return\n\\(R_f\\) = Risk free rate\n\\(\\sigma_p\\) = Standard Deviation of the portfolios excess return\n\\[\nThe Sharpe Ratio = (R_p - R_f)/\\sigma_p\n\\]"
   },
   {
     "objectID": "projects/blog.html#the-maths",
     "href": "projects/blog.html#the-maths",
     "title": "My Blog",
     "section": "",
-    "text": "\\(R_p\\) = The porfolios return\n\\(R_f\\) = Risk free rate\n\\(\\sigma_p\\) = Standard Deviation of the portfolios excess return\n\\[\nThe Sharpe Ration = (R_p - R_f)/\\sigma_p\n\\]"
+    "text": "To start I am going to lay out an example for us to demonstrate this principle.\nWithout diversification \n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\n#Parameters to change\nportfolio_size = 100000\nnum_positions = 20\navg_return = 0.07\nvolatility = .20\nsimulations = 10000\n\n#Simulate returns\nweights = np.ones(num_positions)/num_positions\nreturns = np.random.normal(avg_return, volatility, (simulations, num_positions))\nportfolio_returns = (returns @ weights) * portfolio_size\n\n#Results\nmean_return = np.mean(portfolio_returns)/portfolio_size\nstan_dev = np.std(portfolio_returns)/portfolio_size\n\nprint(f\"The mean return for the portfolios is {mean_return}\")\nprint(f\"The standard deviation for the portfolios is {stan_dev}\")\n\n#plot the results\nplt.hist(portfolio_returns/portfolio_size, bins=50, alpha=0.7, color=\"black\")\nplt.axvline(mean_return, color=\"red\", linestyle=\"dashed\", linewidth=2, label=\"Mean\")\nplt.title(f\"Distribution of Portfolio Returns ({num_positions} positions)\")\nplt.xlabel(\"Return\")\nplt.ylabel(\"Frequency\")\nplt.legend()\nplt.show()\n\n\nThe mean return for the portfolios is 0.06931503040424644\nThe standard deviation for the portfolios is 0.044831977135322616\n\n\n\n\n\n\n\n\n\nWith diversification \n\n\nThe Sharpe Ratio is a mathmatical formula used to measure risk against the expected return.\n\\(R_p\\) = The porfolios return\n\\(R_f\\) = Risk free rate\n\\(\\sigma_p\\) = Standard Deviation of the portfolios excess return\n\\[\nThe Sharpe Ratio = (R_p - R_f)/\\sigma_p\n\\]"
+  },
+  {
+    "objectID": "projects/blog.html#what-is-diversification-of-risk",
+    "href": "projects/blog.html#what-is-diversification-of-risk",
+    "title": "My Blog",
+    "section": "",
+    "text": "Diversification of risk is the idea that as you ‘put your eggs in more baskets’ you minimize the overall risk. This is generally discussed within the investing community as a way to minimize the risk of losing large portions of your money. This principle is widely used and understood but I would like to look at the statistics behind it to gain a better understanding."
+  },
+  {
+    "objectID": "projects/blog.html#how-does-this-apply-in-the-world-of-finance-and-can-it-apply-elsewhere",
+    "href": "projects/blog.html#how-does-this-apply-in-the-world-of-finance-and-can-it-apply-elsewhere",
+    "title": "My Blog",
+    "section": "",
+    "text": "This is generally discussed within the investing community as a way to minimize the risk of losing large portions of your money."
+  },
+  {
+    "objectID": "projects/blog.html#the-idea",
+    "href": "projects/blog.html#the-idea",
+    "title": "My Blog",
+    "section": "",
+    "text": "The idea behind this is that as you increase the number of investments the chances of more then one dropping significatly decreases drastically. If one of your stocks move down signifiactly, say 25% but it only makes up 5% of your portfolio then you only end up losing 1.25% of your total portfolio value which is a much more manageable portion. This also increases the chance of one of your stocks moving up a significant amount. While diversification does minimize the return you would receive from an increase it increases the chances of you gaining some value in your portfolio. What is does is take your portfolio risk and minimize it. You are stuck with something called Market risk but diversification gets rid of most of your portfolio specific risk.\n\n\n\nA graph showing market risk vs portfolio risk"
   }
 ]
