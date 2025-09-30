@@ -16,7 +16,7 @@ The idea behind diversification is that as you increase the number of investment
 ## The Maths
 Below is a chunk of code that visualizes the effect of adding a position to your portfolio.
 
-Copy this code and change the max_positions variable to see a different number of variables. 
+Copy this code and change the max_positions variable to see the effect of a different number of positions on risk(standard deviation). 
 
 This code: <br>
 - defines parameters <br>
