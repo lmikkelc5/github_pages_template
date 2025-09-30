@@ -258,11 +258,11 @@ window.Quarto = {
 <h1>Stats and the diversification of risk</h1>
 <section id="what-is-diversification-of-risk" class="level2">
 <h2 class="anchored" data-anchor-id="what-is-diversification-of-risk">What is Diversification of risk?</h2>
-<p>Diversification of risk is the idea that as you ‘put your eggs in more baskets’ you minimize the overall risk. This is generally discussed within the investing community as a way to minimize the risk of losing large portions of your money. This principle is widely used and understood but I would like to look at the statistics behind it to gain a better understanding.</p>
+<p>Diversification of risk is the idea that as you ‘put your eggs in more baskets’ you minimize the overall risk. This is generally discussed within the investing community as a way to minimize the risk of losing large portions of your money. This is a very common principle but one that I think many people could benefit from understanding better.</p>
 </section>
 <section id="the-idea" class="level2">
 <h2 class="anchored" data-anchor-id="the-idea">The Idea</h2>
-<p>The idea behind this is that as you increase the number of investments the chances of more then one dropping significatly decreases drastically. If one of your stocks move down signifiactly, say 25% but it only makes up 5% of your portfolio then you only end up losing 1.25% of your total portfolio value which is a much more manageable portion. This also increases the chance of one of your stocks moving up a significant amount. While diversification does minimize the return you would receive from an increase it increases the chances of you gaining some value in your portfolio. What is does is take your portfolio risk and minimize it. You are stuck with something called Market risk but diversification gets rid of most of your portfolio specific risk.</p>
+<p>The idea behind diversification is that as you increase the number of investments the chances of more then one dropping significatly decreases drastically. If one of your stocks move down signifiactly, say 25% but it only makes up 5% of your portfolio then you only end up losing 1.25% of your total portfolio value which is a much more manageable portion. This also increases the chance of one of your stocks moving up a significant amount. While diversification does minimize the return you would receive from an increase it increases the chances of you gaining some value in your portfolio. What is does is take your portfolio risk and minimize it. You are stuck with something called market risk but diversification gets rid of most of your portfolio specific risk.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="..\imgs\chart.png" class="img-fluid figure-img"></p>
@@ -274,8 +274,10 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="the-maths">The Maths</h2>
 <p>Below is a chunk of code that visualizes the affect of adding a position to your portfolio.</p>
 <p>Copy this code and change the max_positions variable to see a different number of variables.</p>
-<p>The graph is for a portfolio size of $10000 with 50 positions. <br></p>
-<div id="f8e6ef91" class="cell" data-execution_count="1">
+<p>This code: <br> - defines parameters <br> - creates a matrix <br> - it then simulates 10,000 portfolios following the parameters <br> - It then plots the different numbers of positions to show the effects on portfolio risk <br></p>
+<p><em>The graph is for a portfolio size of $10000 with 50 positions.</em></p>
+<p><br></p>
+<div id="896f6d67" class="cell" data-execution_count="1">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
@@ -327,13 +329,12 @@ window.Quarto = {
 </div>
 <section id="the-sharpe-ratio" class="level3">
 <h3 class="anchored" data-anchor-id="the-sharpe-ratio">The Sharpe Ratio</h3>
-<p>One measure of risk isThe Sharpe Ratio is a mathmatical formula used to measure risk against the expected return.</p>
-<p><span class="math inline">\(R_p\)</span> = The porfolios return<br>
-<span class="math inline">\(R_f\)</span> = Risk free rate<br>
-<span class="math inline">\(\sigma_p\)</span> = Standard Deviation of the portfolios excess return</p>
+<p>One measure of risk is <strong>The Sharpe Ratio</strong> is a mathmatical formula used to measure risk against the expected return.</p>
+<p><span class="math inline">\(R_p\)</span> = The porfolios return <span class="math inline">\(R_f\)</span> = Risk free rate <span class="math inline">\(\sigma_p\)</span> = Standard Deviation of the portfolios excess return</p>
 <p><span class="math display">\[
 The Sharpe Ratio = (R_p - R_f)/\sigma_p
 \]</span></p>
+<p><a href="https://www.investopedia.com/terms/d/diversification.asp">If you want to learn more about diversification click here</a></p>
 
 
 <!-- -->
@@ -801,10 +802,10 @@ The Sharpe Ratio = (R_p - R_f)/\sigma_p
 <span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="fu"># Stats and the diversification of risk</span></span>
 <span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="fu">## What is Diversification of risk?</span></span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>Diversification of risk is the idea that as you 'put your eggs in more baskets' you minimize the overall risk. This is generally discussed within the investing community as a way to minimize the risk of losing large portions of your money. This principle is widely used and understood but I would like to look at the statistics behind it to gain a better understanding.</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>Diversification of risk is the idea that as you 'put your eggs in more baskets' you minimize the overall risk. This is generally discussed within the investing community as a way to minimize the risk of losing large portions of your money. This is a very common principle but one that I think many people could benefit from understanding better.</span>
 <span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="fu">## The Idea</span></span>
-<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>The idea behind this is that as you increase the number of investments the chances of more then one dropping significatly decreases drastically. If one of your stocks move down signifiactly, say 25% but it only makes up 5% of your portfolio then you only end up losing 1.25% of your total portfolio value which is a much more manageable portion. This also increases the chance of one of your stocks moving up a significant amount. While diversification does minimize the return you would receive from an increase it increases the chances of you gaining some value in your portfolio. What is does is take your portfolio risk and minimize it. You are stuck with something called Market risk but diversification gets rid of most of your portfolio specific risk.</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>The idea behind diversification is that as you increase the number of investments the chances of more then one dropping significatly decreases drastically. If one of your stocks move down signifiactly, say 25% but it only makes up 5% of your portfolio then you only end up losing 1.25% of your total portfolio value which is a much more manageable portion. This also increases the chance of one of your stocks moving up a significant amount. While diversification does minimize the return you would receive from an increase it increases the chances of you gaining some value in your portfolio. What is does is take your portfolio risk and minimize it. You are stuck with something called market risk but diversification gets rid of most of your portfolio specific risk.</span>
 <span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a><span class="al">![A graph showing market risk vs portfolio risk](..\imgs\chart.png)</span></span>
 <span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a></span>
@@ -814,60 +815,69 @@ The Sharpe Ratio = (R_p - R_f)/\sigma_p
 <span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>Copy this code and change the max_positions variable to see a different number of variables. </span>
 <span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a>The graph is for a portfolio size of $10000 with 50 positions.</span>
-<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">br</span><span class="dt">&gt;</span></span>
-<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a><span class="in">```{python}</span></span>
-<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
-<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a>This code: <span class="dt">&lt;</span><span class="kw">br</span><span class="dt">&gt;</span></span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>defines parameters <span class="dt">&lt;</span><span class="kw">br</span><span class="dt">&gt;</span></span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>creates a matrix <span class="dt">&lt;</span><span class="kw">br</span><span class="dt">&gt;</span></span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>it then simulates 10,000 portfolios following the parameters <span class="dt">&lt;</span><span class="kw">br</span><span class="dt">&gt;</span></span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>It then plots the different numbers of positions to show the effects on portfolio risk <span class="dt">&lt;</span><span class="kw">br</span><span class="dt">&gt;</span></span>
+<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a>*The graph is for a portfolio size of $10000 with 50 positions.*</span>
 <span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a><span class="co">#Parameters you can change</span></span>
-<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a>portfolio_size <span class="op">=</span> <span class="dv">100_000</span></span>
-<span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a>avg_return <span class="op">=</span> <span class="fl">0.07</span></span>
-<span id="cb2-32"><a href="#cb2-32" aria-hidden="true" tabindex="-1"></a>volatility <span class="op">=</span> <span class="fl">0.20</span></span>
-<span id="cb2-33"><a href="#cb2-33" aria-hidden="true" tabindex="-1"></a>correlation <span class="op">=</span> <span class="fl">0.1</span></span>
-<span id="cb2-34"><a href="#cb2-34" aria-hidden="true" tabindex="-1"></a>max_positions <span class="op">=</span> <span class="dv">50</span></span>
-<span id="cb2-35"><a href="#cb2-35" aria-hidden="true" tabindex="-1"></a>simulations <span class="op">=</span> <span class="dv">10_000</span></span>
-<span id="cb2-36"><a href="#cb2-36" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-37"><a href="#cb2-37" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> simulate_portfolio(num_positions):</span>
-<span id="cb2-38"><a href="#cb2-38" aria-hidden="true" tabindex="-1"></a>    weights <span class="op">=</span> np.ones(num_positions) <span class="op">/</span> num_positions</span>
-<span id="cb2-39"><a href="#cb2-39" aria-hidden="true" tabindex="-1"></a>    </span>
-<span id="cb2-40"><a href="#cb2-40" aria-hidden="true" tabindex="-1"></a>    <span class="co"># covariance matrix</span></span>
-<span id="cb2-41"><a href="#cb2-41" aria-hidden="true" tabindex="-1"></a>    cov_matrix <span class="op">=</span> (volatility<span class="op">**</span><span class="dv">2</span>) <span class="op">*</span> (</span>
-<span id="cb2-42"><a href="#cb2-42" aria-hidden="true" tabindex="-1"></a>        correlation <span class="op">*</span> np.ones((num_positions, num_positions)) <span class="op">+</span></span>
-<span id="cb2-43"><a href="#cb2-43" aria-hidden="true" tabindex="-1"></a>        (<span class="dv">1</span> <span class="op">-</span> correlation) <span class="op">*</span> np.eye(num_positions)</span>
-<span id="cb2-44"><a href="#cb2-44" aria-hidden="true" tabindex="-1"></a>    )</span>
-<span id="cb2-45"><a href="#cb2-45" aria-hidden="true" tabindex="-1"></a>    </span>
-<span id="cb2-46"><a href="#cb2-46" aria-hidden="true" tabindex="-1"></a>    <span class="co"># portfolio variance</span></span>
-<span id="cb2-47"><a href="#cb2-47" aria-hidden="true" tabindex="-1"></a>    port_variance <span class="op">=</span> weights <span class="op">@</span> cov_matrix <span class="op">@</span> weights.T</span>
-<span id="cb2-48"><a href="#cb2-48" aria-hidden="true" tabindex="-1"></a>    port_std_dev <span class="op">=</span> np.sqrt(port_variance)</span>
-<span id="cb2-49"><a href="#cb2-49" aria-hidden="true" tabindex="-1"></a>    </span>
-<span id="cb2-50"><a href="#cb2-50" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> port_std_dev</span>
-<span id="cb2-51"><a href="#cb2-51" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-52"><a href="#cb2-52" aria-hidden="true" tabindex="-1"></a><span class="co">#simulations</span></span>
-<span id="cb2-53"><a href="#cb2-53" aria-hidden="true" tabindex="-1"></a>positions_range <span class="op">=</span> <span class="bu">range</span>(<span class="dv">1</span>, max_positions<span class="op">+</span><span class="dv">1</span>)</span>
-<span id="cb2-54"><a href="#cb2-54" aria-hidden="true" tabindex="-1"></a>risks <span class="op">=</span> [simulate_portfolio(n) <span class="cf">for</span> n <span class="kw">in</span> positions_range]</span>
-<span id="cb2-55"><a href="#cb2-55" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-56"><a href="#cb2-56" aria-hidden="true" tabindex="-1"></a><span class="co"># plot it</span></span>
-<span id="cb2-57"><a href="#cb2-57" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">8</span>,<span class="dv">5</span>))</span>
-<span id="cb2-58"><a href="#cb2-58" aria-hidden="true" tabindex="-1"></a>plt.plot(positions_range, risks, marker<span class="op">=</span><span class="st">"o"</span>)</span>
-<span id="cb2-59"><a href="#cb2-59" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">"Portfolio Risk vs. Number of Positions"</span>)</span>
-<span id="cb2-60"><a href="#cb2-60" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">"Number of Positions"</span>)</span>
-<span id="cb2-61"><a href="#cb2-61" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">"Portfolio Risk (Std Dev)"</span>)</span>
-<span id="cb2-62"><a href="#cb2-62" aria-hidden="true" tabindex="-1"></a>plt.grid(<span class="va">True</span>)</span>
-<span id="cb2-63"><a href="#cb2-63" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
-<span id="cb2-64"><a href="#cb2-64" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-65"><a href="#cb2-65" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb2-66"><a href="#cb2-66" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-67"><a href="#cb2-67" aria-hidden="true" tabindex="-1"></a><span class="fu">### The Sharpe Ratio</span></span>
-<span id="cb2-68"><a href="#cb2-68" aria-hidden="true" tabindex="-1"></a>One measure of risk isThe Sharpe Ratio is a mathmatical formula used to measure risk against the expected return.</span>
-<span id="cb2-69"><a href="#cb2-69" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-70"><a href="#cb2-70" aria-hidden="true" tabindex="-1"></a>$R_p$ = The porfolios return  </span>
-<span id="cb2-71"><a href="#cb2-71" aria-hidden="true" tabindex="-1"></a>$R_f$ = Risk free rate  </span>
-<span id="cb2-72"><a href="#cb2-72" aria-hidden="true" tabindex="-1"></a>$\sigma_p$ = Standard Deviation of the portfolios excess return  </span>
+<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">br</span><span class="dt">&gt;</span></span>
+<span id="cb2-32"><a href="#cb2-32" aria-hidden="true" tabindex="-1"></a><span class="in">```{python}</span></span>
+<span id="cb2-33"><a href="#cb2-33" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb2-34"><a href="#cb2-34" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb2-35"><a href="#cb2-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-36"><a href="#cb2-36" aria-hidden="true" tabindex="-1"></a><span class="co">#Parameters you can change</span></span>
+<span id="cb2-37"><a href="#cb2-37" aria-hidden="true" tabindex="-1"></a>portfolio_size <span class="op">=</span> <span class="dv">100_000</span></span>
+<span id="cb2-38"><a href="#cb2-38" aria-hidden="true" tabindex="-1"></a>avg_return <span class="op">=</span> <span class="fl">0.07</span></span>
+<span id="cb2-39"><a href="#cb2-39" aria-hidden="true" tabindex="-1"></a>volatility <span class="op">=</span> <span class="fl">0.20</span></span>
+<span id="cb2-40"><a href="#cb2-40" aria-hidden="true" tabindex="-1"></a>correlation <span class="op">=</span> <span class="fl">0.1</span></span>
+<span id="cb2-41"><a href="#cb2-41" aria-hidden="true" tabindex="-1"></a>max_positions <span class="op">=</span> <span class="dv">50</span></span>
+<span id="cb2-42"><a href="#cb2-42" aria-hidden="true" tabindex="-1"></a>simulations <span class="op">=</span> <span class="dv">10_000</span></span>
+<span id="cb2-43"><a href="#cb2-43" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-44"><a href="#cb2-44" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> simulate_portfolio(num_positions):</span>
+<span id="cb2-45"><a href="#cb2-45" aria-hidden="true" tabindex="-1"></a>    weights <span class="op">=</span> np.ones(num_positions) <span class="op">/</span> num_positions</span>
+<span id="cb2-46"><a href="#cb2-46" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb2-47"><a href="#cb2-47" aria-hidden="true" tabindex="-1"></a>    <span class="co"># covariance matrix</span></span>
+<span id="cb2-48"><a href="#cb2-48" aria-hidden="true" tabindex="-1"></a>    cov_matrix <span class="op">=</span> (volatility<span class="op">**</span><span class="dv">2</span>) <span class="op">*</span> (</span>
+<span id="cb2-49"><a href="#cb2-49" aria-hidden="true" tabindex="-1"></a>        correlation <span class="op">*</span> np.ones((num_positions, num_positions)) <span class="op">+</span></span>
+<span id="cb2-50"><a href="#cb2-50" aria-hidden="true" tabindex="-1"></a>        (<span class="dv">1</span> <span class="op">-</span> correlation) <span class="op">*</span> np.eye(num_positions)</span>
+<span id="cb2-51"><a href="#cb2-51" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb2-52"><a href="#cb2-52" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb2-53"><a href="#cb2-53" aria-hidden="true" tabindex="-1"></a>    <span class="co"># portfolio variance</span></span>
+<span id="cb2-54"><a href="#cb2-54" aria-hidden="true" tabindex="-1"></a>    port_variance <span class="op">=</span> weights <span class="op">@</span> cov_matrix <span class="op">@</span> weights.T</span>
+<span id="cb2-55"><a href="#cb2-55" aria-hidden="true" tabindex="-1"></a>    port_std_dev <span class="op">=</span> np.sqrt(port_variance)</span>
+<span id="cb2-56"><a href="#cb2-56" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb2-57"><a href="#cb2-57" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> port_std_dev</span>
+<span id="cb2-58"><a href="#cb2-58" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-59"><a href="#cb2-59" aria-hidden="true" tabindex="-1"></a><span class="co">#simulations</span></span>
+<span id="cb2-60"><a href="#cb2-60" aria-hidden="true" tabindex="-1"></a>positions_range <span class="op">=</span> <span class="bu">range</span>(<span class="dv">1</span>, max_positions<span class="op">+</span><span class="dv">1</span>)</span>
+<span id="cb2-61"><a href="#cb2-61" aria-hidden="true" tabindex="-1"></a>risks <span class="op">=</span> [simulate_portfolio(n) <span class="cf">for</span> n <span class="kw">in</span> positions_range]</span>
+<span id="cb2-62"><a href="#cb2-62" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-63"><a href="#cb2-63" aria-hidden="true" tabindex="-1"></a><span class="co"># plot it</span></span>
+<span id="cb2-64"><a href="#cb2-64" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">8</span>,<span class="dv">5</span>))</span>
+<span id="cb2-65"><a href="#cb2-65" aria-hidden="true" tabindex="-1"></a>plt.plot(positions_range, risks, marker<span class="op">=</span><span class="st">"o"</span>)</span>
+<span id="cb2-66"><a href="#cb2-66" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">"Portfolio Risk vs. Number of Positions"</span>)</span>
+<span id="cb2-67"><a href="#cb2-67" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">"Number of Positions"</span>)</span>
+<span id="cb2-68"><a href="#cb2-68" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">"Portfolio Risk (Std Dev)"</span>)</span>
+<span id="cb2-69"><a href="#cb2-69" aria-hidden="true" tabindex="-1"></a>plt.grid(<span class="va">True</span>)</span>
+<span id="cb2-70"><a href="#cb2-70" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb2-71"><a href="#cb2-71" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-72"><a href="#cb2-72" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
 <span id="cb2-73"><a href="#cb2-73" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-74"><a href="#cb2-74" aria-hidden="true" tabindex="-1"></a>$$</span>
-<span id="cb2-75"><a href="#cb2-75" aria-hidden="true" tabindex="-1"></a>The Sharpe Ratio = (R_p - R_f)/\sigma_p</span>
-<span id="cb2-76"><a href="#cb2-76" aria-hidden="true" tabindex="-1"></a>$$</span>
+<span id="cb2-74"><a href="#cb2-74" aria-hidden="true" tabindex="-1"></a><span class="fu">### The Sharpe Ratio</span></span>
+<span id="cb2-75"><a href="#cb2-75" aria-hidden="true" tabindex="-1"></a>One measure of risk is **The Sharpe Ratio** is a mathmatical formula used to measure risk against the expected return.</span>
+<span id="cb2-76"><a href="#cb2-76" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-77"><a href="#cb2-77" aria-hidden="true" tabindex="-1"></a>$R_p$ = The porfolios return</span>
+<span id="cb2-78"><a href="#cb2-78" aria-hidden="true" tabindex="-1"></a>$R_f$ = Risk free rate</span>
+<span id="cb2-79"><a href="#cb2-79" aria-hidden="true" tabindex="-1"></a>$\sigma_p$ = Standard Deviation of the portfolios excess return</span>
+<span id="cb2-80"><a href="#cb2-80" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-81"><a href="#cb2-81" aria-hidden="true" tabindex="-1"></a>$$</span>
+<span id="cb2-82"><a href="#cb2-82" aria-hidden="true" tabindex="-1"></a>The Sharpe Ratio = (R_p - R_f)/\sigma_p</span>
+<span id="cb2-83"><a href="#cb2-83" aria-hidden="true" tabindex="-1"></a>$$</span>
+<span id="cb2-84"><a href="#cb2-84" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-85"><a href="#cb2-85" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">If you want to learn more about diversification click here.</span><span class="co">](https://www.investopedia.com/terms/d/diversification.asp)</span></span>
 </code></pre></div><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
