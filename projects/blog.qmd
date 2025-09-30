@@ -8,13 +8,13 @@ title: "My Blog"
 Diversification of risk is the idea that as you 'put your eggs in more baskets' you minimize the overall risk. This is generally discussed within the investing community as a way to minimize the risk of losing large portions of your money. This is a very common principle but one that I think many people could benefit from understanding better.
 
 ## The Idea
-The idea behind diversification is that as you increase the number of investments the chances of more then one dropping significatly decreases drastically. If one of your stocks move down signifiactly, say 25% but it only makes up 5% of your portfolio then you only end up losing 1.25% of your total portfolio value which is a much more manageable portion. This also increases the chance of one of your stocks moving up a significant amount. While diversification does minimize the return you would receive from an increase it increases the chances of you gaining some value in your portfolio. What is does is take your portfolio risk and minimize it. You are stuck with something called market risk but diversification gets rid of most of your portfolio specific risk.
+The idea behind diversification is that as you increase the number of investments the chances of more than one dropping significantly decreases drastically. If one of your stocks move down signifiactly, say 25% but it only makes up 5% of your portfolio then you only end up losing 1.25% of your total portfolio value which is a much more manageable portion. This also increases the chance of one of your stocks moving up a significant amount. While diversification does minimize the return you would receive from an increase it increases the chances of you gaining some value in your portfolio. What this does is take your portfolio risk and minimize it. You are stuck with something called market risk but diversification gets rid of most of your portfolio specific risk.
 
 ![A graph showing market risk vs portfolio risk](..\imgs\chart.png)
 
 
 ## The Maths
-Below is a chunk of code that visualizes the affect of adding a position to your portfolio.
+Below is a chunk of code that visualizes the effect of adding a position to your portfolio.
 
 Copy this code and change the max_positions variable to see a different number of variables. 
 
@@ -70,12 +70,11 @@ plt.show()
 ```
 
 ### The Sharpe Ratio
-One measure of risk is **The Sharpe Ratio**. It is a mathmatical formula used to measure risk against the expected return. By measuring risk adjusted return you can judge whether the return to risk ratio is ideal for your risk tolerance. It shows how much risk you have to take to make a certain profit, allowing you to not only predict profit but the risk you expose yourself to in the process of acheiving that profit.
+One measure of risk is **The Sharpe Ratio**. It is a mathematical formula used to measure risk against the expected return. By measuring risk adjusted return you can judge whether the return to risk ratio is ideal for your risk tolerance. It shows how much risk you have to take to make a certain profit, allowing you to not only predict profit but the risk you expose yourself to in the process of acheiving that profit.
 
-$R_p$ = The porfolios return
+$R_p$ = The portfolios return
 $R_f$ = Risk free rate
 $\sigma_p$ = Standard Deviation of the portfolios excess return
-
 $$
 The Sharpe Ratio = (R_p - R_f)/\sigma_p
 $$
@@ -83,8 +82,8 @@ $$
 The higher The Sharpe Ratio the better your return to risk is. As you can see above in the [chart](#the-maths) as you increase the number of positions you decrease the portfolio risk, or $\sigma_p$. As you decrease the $\sigma_p$ you end up with a larger product or a better risk-adjusted performance.
 
 ## What should you do?
-I am a firm believer that everyone should invest a portion of their savings. One benefit to understanding diversification and risk adjusted return is that people can choose an investment strategy that works for them. Someone younger may want to take a more aggressive approach ie. a higher risk strategy or they may take a safer approach that will compound year after year until they retire. When deciding your approach it's important to think about your ability to handle risk, your long-term goals and when you plan to need the money. Many people will spread their money out among low-risk, medium risk and higher risk strategies to have a safety net but also make long term gains. 
+I am a firm believer that everyone should invest a portion of their savings. One benefit to understanding diversification and risk adjusted return is that people can choose an investment strategy that works for them. Someone younger may want to take a more aggressive approach ie. a higher risk strategy or they may take a safer approach that will compound year after year until they retire. When deciding your approach it's important to think about your ability to handle risk, your long-term goals and when you plan to need the money. Many people will spread their money out among low-risk, medium risk and higher risk strategies to have a safety net but also make long term gains. Diversification is the best way to improve your risk-adjusted performance, even if you aren't constantly computing a Sharpe Ratio everytime you look at a new investment.
 
-Even if it's 1 dollar or 1,000, everyone should start letting their money work for them.
+Even if it's 1 dollar or 1,000, everyone should start letting their money work for them. The sooner you start the more your money can compound and the happier and more financially stable you will be down the road.
 
 [If you want to learn more about diversification click here.](https://www.investopedia.com/terms/d/diversification.asp)
