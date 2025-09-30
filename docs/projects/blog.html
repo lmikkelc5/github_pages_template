@@ -263,7 +263,7 @@ window.Quarto = {
 </section>
 <section id="the-idea" class="level2">
 <h2 class="anchored" data-anchor-id="the-idea">The Idea</h2>
-<p>The idea behind diversification is that as you increase the number of investments the chances of more then one dropping significatly decreases drastically. If one of your stocks move down signifiactly, say 25% but it only makes up 5% of your portfolio then you only end up losing 1.25% of your total portfolio value which is a much more manageable portion. This also increases the chance of one of your stocks moving up a significant amount. While diversification does minimize the return you would receive from an increase it increases the chances of you gaining some value in your portfolio. What is does is take your portfolio risk and minimize it. You are stuck with something called market risk but diversification gets rid of most of your portfolio specific risk.</p>
+<p>The idea behind diversification is that as you increase the number of investments the chances of more than one dropping significantly decreases drastically. If one of your stocks move down signifiactly, say 25% but it only makes up 5% of your portfolio then you only end up losing 1.25% of your total portfolio value which is a much more manageable portion. This also increases the chance of one of your stocks moving up a significant amount. While diversification does minimize the return you would receive from an increase it increases the chances of you gaining some value in your portfolio. What this does is take your portfolio risk and minimize it. You are stuck with something called market risk but diversification gets rid of most of your portfolio specific risk.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="..\imgs\chart.png" class="img-fluid figure-img"></p>
@@ -273,12 +273,12 @@ window.Quarto = {
 </section>
 <section id="the-maths" class="level2">
 <h2 class="anchored" data-anchor-id="the-maths">The Maths</h2>
-<p>Below is a chunk of code that visualizes the affect of adding a position to your portfolio.</p>
-<p>Copy this code and change the max_positions variable to see a different number of variables.</p>
+<p>Below is a chunk of code that visualizes the effect of adding a position to your portfolio.</p>
+<p>Copy this code and change the max_positions variable to see the effect of a different number of positions on risk(standard deviation).</p>
 <p>This code: <br> - defines parameters <br> - creates a matrix <br> - it then simulates 10,000 portfolios following the parameters <br> - It then plots the different numbers of positions to show the effects on portfolio risk <br></p>
 <p><em>The graph is for a portfolio size of $10000 with 50 positions.</em></p>
 <p><br></p>
-<div id="2a3f4a3d" class="cell" data-execution_count="1">
+<div id="52dd8641" class="cell" data-execution_count="1">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
@@ -330,18 +330,17 @@ window.Quarto = {
 </div>
 <section id="the-sharpe-ratio" class="level3">
 <h3 class="anchored" data-anchor-id="the-sharpe-ratio">The Sharpe Ratio</h3>
-<p>One measure of risk is <strong>The Sharpe Ratio</strong>. It is a mathmatical formula used to measure risk against the expected return. By measuring risk adjusted return you can judge whether the return to risk ratio is ideal for your risk tolerance. It shows how much risk you have to take to make a certain profit, allowing you to not only predict profit but the risk you expose yourself to in the process of acheiving that profit.</p>
-<p><span class="math inline">\(R_p\)</span> = The porfolios return <span class="math inline">\(R_f\)</span> = Risk free rate <span class="math inline">\(\sigma_p\)</span> = Standard Deviation of the portfolios excess return</p>
-<p><span class="math display">\[
+<p>One measure of risk is <strong>The Sharpe Ratio</strong>. It is a mathematical formula used to measure risk against the expected return. By measuring risk adjusted return you can judge whether the return to risk ratio is ideal for your risk tolerance. It shows how much risk you have to take to make a certain profit, allowing you to not only predict profit but the risk you expose yourself to in the process of acheiving that profit.</p>
+<p><span class="math inline">\(R_p\)</span> = The portfolios return <span class="math inline">\(R_f\)</span> = Risk free rate <span class="math inline">\(\sigma_p\)</span> = Standard Deviation of the portfolios excess return <span class="math display">\[
 The Sharpe Ratio = (R_p - R_f)/\sigma_p
 \]</span></p>
-<p>The higher The Sharpe Ratio the better your return to risk is. As you can see above in the <a href="#the-maths">chart</a> as you increase the number of positions you decrease the portfolio risk, or <span class="math inline">\(\sigma_p\)</span>. As you decrease the <span class="math inline">\(\sigma_p\)</span> you end up with a larger product or a better risk-adjusted performance.</p>
+<p>The higher The Sharpe Ratio the better your return to risk is. As you can see above in the <a href="#the-maths">chart</a> as you increase the number of positions you decrease the portfolio risk, or <span class="math inline">\(\sigma_p\)</span>. As you decrease the <span class="math inline">\(\sigma_p\)</span> you end up with a larger quotient or a better risk-adjusted performance.</p>
 </section>
 </section>
 <section id="what-should-you-do" class="level2">
 <h2 class="anchored" data-anchor-id="what-should-you-do">What should you do?</h2>
-<p>I am a firm believer that everyone should invest a portion of their savings. One benefit to understanding diversification and risk adjusted return is that people can choose an investment strategy that works for them. Someone younger may want to take a more aggressive approach ie. a higher risk strategy or they may take a safer approach that will compound year after year until they retire. When deciding your approach it’s important to think about your ability to handle risk, your long-term goals and when you plan to need the money. Many people will spread their money out among low-risk, medium risk and higher risk strategies to have a safety net but also make long term gains.</p>
-<p>Even if it’s 1 dollar or 1,000, everyone should start letting their money work for them.</p>
+<p>I am a firm believer that everyone should invest a portion of their savings. One benefit to understanding diversification and risk adjusted return is that people can choose an investment strategy that works for them. Someone younger may want to take a more aggressive approach ie. a higher risk strategy or they may take a safer approach that will compound year after year until they retire. When deciding your approach it’s important to think about your ability to handle risk, your long-term goals and when you plan to need the money. Many people will spread their money out among low-risk, medium risk and higher risk strategies to have a safety net but also to make long term gains. Diversification is the best way to improve your risk-adjusted performance, even if you aren’t constantly computing a Sharpe Ratio everytime you look at a new investment.</p>
+<p>Even if it’s 1 dollar or 1,000, everyone should start letting their money work for them. The sooner you start the more your money can compound and the happier and more financially stable you will be down the road.</p>
 <p><a href="https://www.investopedia.com/terms/d/diversification.asp">If you want to learn more about diversification click here.</a></p>
 
 
@@ -812,15 +811,15 @@ The Sharpe Ratio = (R_p - R_f)/\sigma_p
 <span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>Diversification of risk is the idea that as you 'put your eggs in more baskets' you minimize the overall risk. This is generally discussed within the investing community as a way to minimize the risk of losing large portions of your money. This is a very common principle but one that I think many people could benefit from understanding better.</span>
 <span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="fu">## The Idea</span></span>
-<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>The idea behind diversification is that as you increase the number of investments the chances of more then one dropping significatly decreases drastically. If one of your stocks move down signifiactly, say 25% but it only makes up 5% of your portfolio then you only end up losing 1.25% of your total portfolio value which is a much more manageable portion. This also increases the chance of one of your stocks moving up a significant amount. While diversification does minimize the return you would receive from an increase it increases the chances of you gaining some value in your portfolio. What is does is take your portfolio risk and minimize it. You are stuck with something called market risk but diversification gets rid of most of your portfolio specific risk.</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>The idea behind diversification is that as you increase the number of investments the chances of more than one dropping significantly decreases drastically. If one of your stocks move down signifiactly, say 25% but it only makes up 5% of your portfolio then you only end up losing 1.25% of your total portfolio value which is a much more manageable portion. This also increases the chance of one of your stocks moving up a significant amount. While diversification does minimize the return you would receive from an increase it increases the chances of you gaining some value in your portfolio. What this does is take your portfolio risk and minimize it. You are stuck with something called market risk but diversification gets rid of most of your portfolio specific risk.</span>
 <span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a><span class="al">![A graph showing market risk vs portfolio risk](..\imgs\chart.png)</span></span>
 <span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a><span class="fu">## The Maths</span></span>
-<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>Below is a chunk of code that visualizes the affect of adding a position to your portfolio.</span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>Below is a chunk of code that visualizes the effect of adding a position to your portfolio.</span>
 <span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>Copy this code and change the max_positions variable to see a different number of variables. </span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>Copy this code and change the max_positions variable to see the effect of a different number of positions on risk(standard deviation). </span>
 <span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a>This code: <span class="dt">&lt;</span><span class="kw">br</span><span class="dt">&gt;</span></span>
 <span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>defines parameters <span class="dt">&lt;</span><span class="kw">br</span><span class="dt">&gt;</span></span>
@@ -874,24 +873,23 @@ The Sharpe Ratio = (R_p - R_f)/\sigma_p
 <span id="cb2-72"><a href="#cb2-72" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
 <span id="cb2-73"><a href="#cb2-73" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-74"><a href="#cb2-74" aria-hidden="true" tabindex="-1"></a><span class="fu">### The Sharpe Ratio</span></span>
-<span id="cb2-75"><a href="#cb2-75" aria-hidden="true" tabindex="-1"></a>One measure of risk is **The Sharpe Ratio**. It is a mathmatical formula used to measure risk against the expected return. By measuring risk adjusted return you can judge whether the return to risk ratio is ideal for your risk tolerance. It shows how much risk you have to take to make a certain profit, allowing you to not only predict profit but the risk you expose yourself to in the process of acheiving that profit.</span>
+<span id="cb2-75"><a href="#cb2-75" aria-hidden="true" tabindex="-1"></a>One measure of risk is **The Sharpe Ratio**. It is a mathematical formula used to measure risk against the expected return. By measuring risk adjusted return you can judge whether the return to risk ratio is ideal for your risk tolerance. It shows how much risk you have to take to make a certain profit, allowing you to not only predict profit but the risk you expose yourself to in the process of acheiving that profit.</span>
 <span id="cb2-76"><a href="#cb2-76" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-77"><a href="#cb2-77" aria-hidden="true" tabindex="-1"></a>$R_p$ = The porfolios return</span>
+<span id="cb2-77"><a href="#cb2-77" aria-hidden="true" tabindex="-1"></a>$R_p$ = The portfolios return</span>
 <span id="cb2-78"><a href="#cb2-78" aria-hidden="true" tabindex="-1"></a>$R_f$ = Risk free rate</span>
 <span id="cb2-79"><a href="#cb2-79" aria-hidden="true" tabindex="-1"></a>$\sigma_p$ = Standard Deviation of the portfolios excess return</span>
-<span id="cb2-80"><a href="#cb2-80" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-81"><a href="#cb2-81" aria-hidden="true" tabindex="-1"></a>$$</span>
-<span id="cb2-82"><a href="#cb2-82" aria-hidden="true" tabindex="-1"></a>The Sharpe Ratio = (R_p - R_f)/\sigma_p</span>
-<span id="cb2-83"><a href="#cb2-83" aria-hidden="true" tabindex="-1"></a>$$</span>
-<span id="cb2-84"><a href="#cb2-84" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-85"><a href="#cb2-85" aria-hidden="true" tabindex="-1"></a>The higher The Sharpe Ratio the better your return to risk is. As you can see above in the <span class="co">[</span><span class="ot">chart</span><span class="co">](#the-maths)</span> as you increase the number of positions you decrease the portfolio risk, or $\sigma_p$. As you decrease the $\sigma_p$ you end up with a larger product or a better risk-adjusted performance.</span>
-<span id="cb2-86"><a href="#cb2-86" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-87"><a href="#cb2-87" aria-hidden="true" tabindex="-1"></a><span class="fu">## What should you do?</span></span>
-<span id="cb2-88"><a href="#cb2-88" aria-hidden="true" tabindex="-1"></a>I am a firm believer that everyone should invest a portion of their savings. One benefit to understanding diversification and risk adjusted return is that people can choose an investment strategy that works for them. Someone younger may want to take a more aggressive approach ie. a higher risk strategy or they may take a safer approach that will compound year after year until they retire. When deciding your approach it's important to think about your ability to handle risk, your long-term goals and when you plan to need the money. Many people will spread their money out among low-risk, medium risk and higher risk strategies to have a safety net but also make long term gains. </span>
-<span id="cb2-89"><a href="#cb2-89" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-90"><a href="#cb2-90" aria-hidden="true" tabindex="-1"></a>Even if it's 1 dollar or 1,000, everyone should start letting their money work for them.</span>
-<span id="cb2-91"><a href="#cb2-91" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-92"><a href="#cb2-92" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">If you want to learn more about diversification click here.</span><span class="co">](https://www.investopedia.com/terms/d/diversification.asp)</span></span>
+<span id="cb2-80"><a href="#cb2-80" aria-hidden="true" tabindex="-1"></a>$$</span>
+<span id="cb2-81"><a href="#cb2-81" aria-hidden="true" tabindex="-1"></a>The Sharpe Ratio = (R_p - R_f)/\sigma_p</span>
+<span id="cb2-82"><a href="#cb2-82" aria-hidden="true" tabindex="-1"></a>$$</span>
+<span id="cb2-83"><a href="#cb2-83" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-84"><a href="#cb2-84" aria-hidden="true" tabindex="-1"></a>The higher The Sharpe Ratio the better your return to risk is. As you can see above in the <span class="co">[</span><span class="ot">chart</span><span class="co">](#the-maths)</span> as you increase the number of positions you decrease the portfolio risk, or $\sigma_p$. As you decrease the $\sigma_p$ you end up with a larger quotient or a better risk-adjusted performance.</span>
+<span id="cb2-85"><a href="#cb2-85" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-86"><a href="#cb2-86" aria-hidden="true" tabindex="-1"></a><span class="fu">## What should you do?</span></span>
+<span id="cb2-87"><a href="#cb2-87" aria-hidden="true" tabindex="-1"></a>I am a firm believer that everyone should invest a portion of their savings. One benefit to understanding diversification and risk adjusted return is that people can choose an investment strategy that works for them. Someone younger may want to take a more aggressive approach ie. a higher risk strategy or they may take a safer approach that will compound year after year until they retire. When deciding your approach it's important to think about your ability to handle risk, your long-term goals and when you plan to need the money. Many people will spread their money out among low-risk, medium risk and higher risk strategies to have a safety net but also to make long term gains. Diversification is the best way to improve your risk-adjusted performance, even if you aren't constantly computing a Sharpe Ratio everytime you look at a new investment.</span>
+<span id="cb2-88"><a href="#cb2-88" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-89"><a href="#cb2-89" aria-hidden="true" tabindex="-1"></a>Even if it's 1 dollar or 1,000, everyone should start letting their money work for them. The sooner you start the more your money can compound and the happier and more financially stable you will be down the road.</span>
+<span id="cb2-90"><a href="#cb2-90" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-91"><a href="#cb2-91" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">If you want to learn more about diversification click here.</span><span class="co">](https://www.investopedia.com/terms/d/diversification.asp)</span></span>
 </code></pre></div><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
