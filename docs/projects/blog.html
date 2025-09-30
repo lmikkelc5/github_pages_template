@@ -228,6 +228,7 @@ window.Quarto = {
   <ul class="collapse">
   <li><a href="#the-sharpe-ratio" id="toc-the-sharpe-ratio" class="nav-link" data-scroll-target="#the-sharpe-ratio">The Sharpe Ratio</a></li>
   </ul></li>
+  <li><a href="#what-should-you-do" id="toc-what-should-you-do" class="nav-link" data-scroll-target="#what-should-you-do">What should you do?</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -277,7 +278,7 @@ window.Quarto = {
 <p>This code: <br> - defines parameters <br> - creates a matrix <br> - it then simulates 10,000 portfolios following the parameters <br> - It then plots the different numbers of positions to show the effects on portfolio risk <br></p>
 <p><em>The graph is for a portfolio size of $10000 with 50 positions.</em></p>
 <p><br></p>
-<div id="896f6d67" class="cell" data-execution_count="1">
+<div id="2a3f4a3d" class="cell" data-execution_count="1">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
@@ -329,17 +330,23 @@ window.Quarto = {
 </div>
 <section id="the-sharpe-ratio" class="level3">
 <h3 class="anchored" data-anchor-id="the-sharpe-ratio">The Sharpe Ratio</h3>
-<p>One measure of risk is <strong>The Sharpe Ratio</strong> is a mathmatical formula used to measure risk against the expected return.</p>
+<p>One measure of risk is <strong>The Sharpe Ratio</strong>. It is a mathmatical formula used to measure risk against the expected return. By measuring risk adjusted return you can judge whether the return to risk ratio is ideal for your risk tolerance. It shows how much risk you have to take to make a certain profit, allowing you to not only predict profit but the risk you expose yourself to in the process of acheiving that profit.</p>
 <p><span class="math inline">\(R_p\)</span> = The porfolios return <span class="math inline">\(R_f\)</span> = Risk free rate <span class="math inline">\(\sigma_p\)</span> = Standard Deviation of the portfolios excess return</p>
 <p><span class="math display">\[
 The Sharpe Ratio = (R_p - R_f)/\sigma_p
 \]</span></p>
-<p><a href="https://www.investopedia.com/terms/d/diversification.asp">If you want to learn more about diversification click here</a></p>
+<p>The higher The Sharpe Ratio the better your return to risk is. As you can see above in the <a href="#the-maths">chart</a> as you increase the number of positions you decrease the portfolio risk, or <span class="math inline">\(\sigma_p\)</span>. As you decrease the <span class="math inline">\(\sigma_p\)</span> you end up with a larger product or a better risk-adjusted performance.</p>
+</section>
+</section>
+<section id="what-should-you-do" class="level2">
+<h2 class="anchored" data-anchor-id="what-should-you-do">What should you do?</h2>
+<p>I am a firm believer that everyone should invest a portion of their savings. One benefit to understanding diversification and risk adjusted return is that people can choose an investment strategy that works for them. Someone younger may want to take a more aggressive approach ie. a higher risk strategy or they may take a safer approach that will compound year after year until they retire. When deciding your approach it’s important to think about your ability to handle risk, your long-term goals and when you plan to need the money. Many people will spread their money out among low-risk, medium risk and higher risk strategies to have a safety net but also make long term gains.</p>
+<p>Even if it’s 1 dollar or 1,000, everyone should start letting their money work for them.</p>
+<p><a href="https://www.investopedia.com/terms/d/diversification.asp">If you want to learn more about diversification click here.</a></p>
 
 
 <!-- -->
 
-</section>
 </section>
 </section>
 
@@ -867,7 +874,7 @@ The Sharpe Ratio = (R_p - R_f)/\sigma_p
 <span id="cb2-72"><a href="#cb2-72" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
 <span id="cb2-73"><a href="#cb2-73" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-74"><a href="#cb2-74" aria-hidden="true" tabindex="-1"></a><span class="fu">### The Sharpe Ratio</span></span>
-<span id="cb2-75"><a href="#cb2-75" aria-hidden="true" tabindex="-1"></a>One measure of risk is **The Sharpe Ratio** is a mathmatical formula used to measure risk against the expected return.</span>
+<span id="cb2-75"><a href="#cb2-75" aria-hidden="true" tabindex="-1"></a>One measure of risk is **The Sharpe Ratio**. It is a mathmatical formula used to measure risk against the expected return. By measuring risk adjusted return you can judge whether the return to risk ratio is ideal for your risk tolerance. It shows how much risk you have to take to make a certain profit, allowing you to not only predict profit but the risk you expose yourself to in the process of acheiving that profit.</span>
 <span id="cb2-76"><a href="#cb2-76" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-77"><a href="#cb2-77" aria-hidden="true" tabindex="-1"></a>$R_p$ = The porfolios return</span>
 <span id="cb2-78"><a href="#cb2-78" aria-hidden="true" tabindex="-1"></a>$R_f$ = Risk free rate</span>
@@ -877,7 +884,14 @@ The Sharpe Ratio = (R_p - R_f)/\sigma_p
 <span id="cb2-82"><a href="#cb2-82" aria-hidden="true" tabindex="-1"></a>The Sharpe Ratio = (R_p - R_f)/\sigma_p</span>
 <span id="cb2-83"><a href="#cb2-83" aria-hidden="true" tabindex="-1"></a>$$</span>
 <span id="cb2-84"><a href="#cb2-84" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-85"><a href="#cb2-85" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">If you want to learn more about diversification click here.</span><span class="co">](https://www.investopedia.com/terms/d/diversification.asp)</span></span>
+<span id="cb2-85"><a href="#cb2-85" aria-hidden="true" tabindex="-1"></a>The higher The Sharpe Ratio the better your return to risk is. As you can see above in the <span class="co">[</span><span class="ot">chart</span><span class="co">](#the-maths)</span> as you increase the number of positions you decrease the portfolio risk, or $\sigma_p$. As you decrease the $\sigma_p$ you end up with a larger product or a better risk-adjusted performance.</span>
+<span id="cb2-86"><a href="#cb2-86" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-87"><a href="#cb2-87" aria-hidden="true" tabindex="-1"></a><span class="fu">## What should you do?</span></span>
+<span id="cb2-88"><a href="#cb2-88" aria-hidden="true" tabindex="-1"></a>I am a firm believer that everyone should invest a portion of their savings. One benefit to understanding diversification and risk adjusted return is that people can choose an investment strategy that works for them. Someone younger may want to take a more aggressive approach ie. a higher risk strategy or they may take a safer approach that will compound year after year until they retire. When deciding your approach it's important to think about your ability to handle risk, your long-term goals and when you plan to need the money. Many people will spread their money out among low-risk, medium risk and higher risk strategies to have a safety net but also make long term gains. </span>
+<span id="cb2-89"><a href="#cb2-89" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-90"><a href="#cb2-90" aria-hidden="true" tabindex="-1"></a>Even if it's 1 dollar or 1,000, everyone should start letting their money work for them.</span>
+<span id="cb2-91"><a href="#cb2-91" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-92"><a href="#cb2-92" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">If you want to learn more about diversification click here.</span><span class="co">](https://www.investopedia.com/terms/d/diversification.asp)</span></span>
 </code></pre></div><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
