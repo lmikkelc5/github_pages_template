@@ -14,51 +14,56 @@ The idea behind this is that as you increase the number of investments the chanc
 
 
 ## The Maths
-To start I am going to lay out an example for us to demonstrate this principle. 
+Below is a chunk of code that visualizes the affect of adding a position to your portfolio.
 
-Without diversification
+Copy this code and change the max_positions variable to see a different number of variables. 
+
+The graph is for a portfolio size of $10000 with 50 positions.
 <br>
 ```{python}
 import numpy as np
 import matplotlib.pyplot as plt
 
-#Parameters to change
-portfolio_size = 100000
-num_positions = 20
+#Parameters you can change
+portfolio_size = 100_000
 avg_return = 0.07
-volatility = .20
-simulations = 10000
+volatility = 0.20
+correlation = 0.1
+max_positions = 50
+simulations = 10_000
 
-#Simulate returns
-weights = np.ones(num_positions)/num_positions
-returns = np.random.normal(avg_return, volatility, (simulations, num_positions))
-portfolio_returns = (returns @ weights) * portfolio_size
+def simulate_portfolio(num_positions):
+    weights = np.ones(num_positions) / num_positions
+    
+    # covariance matrix
+    cov_matrix = (volatility**2) * (
+        correlation * np.ones((num_positions, num_positions)) +
+        (1 - correlation) * np.eye(num_positions)
+    )
+    
+    # portfolio variance
+    port_variance = weights @ cov_matrix @ weights.T
+    port_std_dev = np.sqrt(port_variance)
+    
+    return port_std_dev
 
-#Results
-mean_return = np.mean(portfolio_returns)/portfolio_size
-stan_dev = np.std(portfolio_returns)/portfolio_size
+#simulations
+positions_range = range(1, max_positions+1)
+risks = [simulate_portfolio(n) for n in positions_range]
 
-print(f"The mean return for the portfolios is {mean_return}")
-print(f"The standard deviation for the portfolios is {stan_dev}")
-
-#plot the results
-plt.hist(portfolio_returns/portfolio_size, bins=50, alpha=0.7, color="black")
-plt.axvline(mean_return, color="red", linestyle="dashed", linewidth=2, label="Mean")
-plt.title(f"Distribution of Portfolio Returns ({num_positions} positions)")
-plt.xlabel("Return")
-plt.ylabel("Frequency")
-plt.legend()
+# plot it
+plt.figure(figsize=(8,5))
+plt.plot(positions_range, risks, marker="o")
+plt.title("Portfolio Risk vs. Number of Positions")
+plt.xlabel("Number of Positions")
+plt.ylabel("Portfolio Risk (Std Dev)")
+plt.grid(True)
 plt.show()
 
 ```
 
-With diversification <br>
-```{python}
-
-```
-
 ### The Sharpe Ratio
-The Sharpe Ratio is a mathmatical formula used to measure risk against the expected return.
+One measure of risk isThe Sharpe Ratio is a mathmatical formula used to measure risk against the expected return.
 
 $R_p$ = The porfolios return  
 $R_f$ = Risk free rate  

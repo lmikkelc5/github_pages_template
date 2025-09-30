@@ -1,30 +1,39 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-# === Parameters you can change ===
+#Parameters you can change
 portfolio_size = 100_000   # total dollars in portfolio
-num_positions = 100000        # number of stocks in portfolio
+num_positions = 1000          # number of stocks in portfolio
 avg_return = 0.07          # expected annual return per stock
-volatility = 0.60          # standard deviation of stock returns (20%)
+volatility = 0.20
+correlation = 0.1          # standard deviation of stock returns (20%)
+max_positions = 50
 simulations = 10_000       # number of random portfolios to simulate
 
-# === Simulation ===
-weights = np.ones(num_positions) / num_positions  # equal weighting
-returns = np.random.normal(avg_return, volatility, (simulations, num_positions))
-portfolio_returns = (returns @ weights) * portfolio_size
+def simulate_portfolio(num_positions):
+    weights = np.ones(num_positions) / num_positions
+    
+    # covariance matrix
+    cov_matrix = (volatility**2) * (
+        correlation * np.ones((num_positions, num_positions)) +
+        (1 - correlation) * np.eye(num_positions)
+    )
+    
+    # portfolio variance
+    port_variance = weights @ cov_matrix @ weights.T
+    port_std_dev = np.sqrt(port_variance)
+    
+    return port_std_dev
 
-# === Results ===
-mean_return = np.mean(portfolio_returns) / portfolio_size
-std_dev = np.std(portfolio_returns) / portfolio_size
+#simulations
+positions_range = range(1, max_positions+1)
+risks = [simulate_portfolio(n) for n in positions_range]
 
-print(f"Expected Portfolio Return: {mean_return:.2%}")
-print(f"Portfolio Risk (Std Dev): {std_dev:.2%}")
-
-# === Visualization ===
-plt.hist(portfolio_returns / portfolio_size, bins=50, alpha=0.7, color="blue")
-plt.axvline(mean_return, color="red", linestyle="dashed", linewidth=2, label="Mean")
-plt.title(f"Distribution of Portfolio Returns ({num_positions} positions)")
-plt.xlabel("Return")
-plt.ylabel("Frequency")
-plt.legend()
+# plot it
+plt.figure(figsize=(8,5))
+plt.plot(positions_range, risks, marker="o")
+plt.title("Portfolio Risk vs. Number of Positions")
+plt.xlabel("Number of Positions")
+plt.ylabel("Portfolio Risk (Std Dev)")
+plt.grid(True)
 plt.show()
