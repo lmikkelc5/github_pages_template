@@ -62,7 +62,7 @@
     "href": "about.html",
     "title": "About Me",
     "section": "",
-    "text": "Write a brief introduction about yourself here. Include:\n\nYour academic background\nYour interest in data science\nYour career goals\nAny relevant experience or projects"
+    "text": "Headshot"
   },
   {
     "objectID": "about.html#background",
@@ -74,9 +74,9 @@
   {
     "objectID": "about.html#education",
     "href": "about.html#education",
-    "title": "About Me",
+    "title": "About Mikkel Christensen",
     "section": "Education",
-    "text": "Education\n\n[Your Degree] - [University Name], [Year]\nRelevant Coursework: Statistics, Data Analysis, Programming, etc."
+    "text": "Education\nBrigham Young University, Provo, UT\nB.S. in Statistics — Data Science, Apr 2027\nGPA: 3.29/4.00 (Major GPA: 3.57/4.00) · ACT: 30/36"
   },
   {
     "objectID": "about.html#skills-interests",
@@ -88,16 +88,16 @@
   {
     "objectID": "about.html#goals",
     "href": "about.html#goals",
-    "title": "About Me",
+    "title": "About Mikkel Christensen",
     "section": "Goals",
-    "text": "Goals\nDescribe what you hope to achieve through your data science journey:\n\nShort-term learning objectives\nLong-term career aspirations\nTypes of problems you want to solve"
+    "text": "Goals\n\nMachine Learning and Algo-trading\nWork with stats in the fianance world\nHopefully how to make a ton of money, but i’ll settle for slightly lesser goals like becoming profitable"
   },
   {
     "objectID": "about.html#contact",
     "href": "about.html#contact",
-    "title": "About Me",
+    "title": "About Mikkel Christensen",
     "section": "Contact",
-    "text": "Contact\n\nEmail: your.email@example.com\nGitHub: github.com/your-username\nLinkedIn: linkedin.com/in/your-profile\n\n\nThis portfolio showcases my learning progress and projects completed during my data science studies."
+    "text": "Contact\n\nEmail: lmikkelc5@gmail.com\nGitHub: https://github.com/lmikkelc5\nLinkedIn: www.linkedin.com/in/lmikkelc5\n\n\nThis portfolio showcases my learning progress and projects completed during my data science studies."
   },
   {
     "objectID": "projects/data-acquisition.html",
@@ -174,5 +174,47 @@
     "title": "Welcome to Mikkel Christensens Data Science Portfolio",
     "section": "",
     "text": "Thanks for visiting my page and I hope you enjoy what you see! This is a collection of projects I have done in my Stat 386 class and I will add some of my own as well! I look forward to using this page to motivate me to complete projects and work on things that interest me and help me learn more about stats."
+  },
+  {
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "About Mikkel Christensen",
+    "section": "Experience",
+    "text": "Experience\nTax Accountant — Synergy Restaurant Management, Poway, CA\nMay 2025 – Aug 2025\n- Worked with accountants to book year-end journal entries.\n- Organized and prepared financial statements for several companies.\n- Prepared and filed taxes.\nSales Representative — Immaculate Solutions Inc., Los Angeles, CA\nMay 2024 – Aug 2024\n- Cold-called restaurants across Los Angeles County.\n- Performed free testing of kitchen appliances to test conformity to health laws.\n- Helped grow the company in its early stages.\nPart-time Accountant — Synergy Accounting, Poway, CA\nJan 2020 – Feb 2020; Aug 2022 – Present\n- Managed time efficiently while working remotely.\n- Developed a tip matrix to properly allocate tips among restaurant staff.\n- Recorded Daily Sales Summaries and other recurring accounting entries.\nFinish Carpenter — Butler Brothers Cabinets, Ramona, CA\nMar 2022 – Aug 2022\n- Trusted for unique tasks outside normal operations.\n- Prepared supplies and participated in complex cabinet installations.\n- Consistently chosen for tasks requiring strength and determination."
+  },
+  {
+    "objectID": "about.html#service",
+    "href": "about.html#service",
+    "title": "About Mikkel Christensen",
+    "section": "Service",
+    "text": "Service\nVoluntary Representative — The Church of Jesus Christ of Latter-day Saints, São Paulo East, Brazil; Orem, Utah\nFeb 2020 – Mar 2022\n- Supervised and trained groups of 20–40 volunteer representatives.\n- Taught and trained volunteer representatives upon their arrival in São Paulo.\n- Demonstrated hard work and dedication.\nMisc. Service - Volunteered in soup kitchens feeding the homeless; made and distributed hygiene kits\n- Built a house on an Indian reservation in southern Utah for a family in need"
+  },
+  {
+    "objectID": "about.html#skills",
+    "href": "about.html#skills",
+    "title": "About Mikkel Christensen",
+    "section": "Skills",
+    "text": "Skills\n\nProgramming: Python, C++, VBA, R, Julia, SQL\nData Analysis: Pandas, NumPy\nVisualization: Matplotlib, Seaborn\nMachine Learning: Scikit-learn\nTools: Jupyter Notebooks, Git/GitHub, Excel, Tableau\nSoft Skills: People person and high attention to detail\nLanguages: Portuguese (fluent), Spanish (Read, Understand)\n\n\nAreas of Interest\n\nFinance, Business Optimization, Consulting\nBiostats, statistical modeling"
+  },
+  {
+    "objectID": "about.html#personal",
+    "href": "about.html#personal",
+    "title": "About Mikkel Christensen",
+    "section": "Personal",
+    "text": "Personal\n\nEagle Scout\n\nGraduated from high school as part of the California Scholarship Federation\n\nRock-climbing, weightlifting, surfing, swimming, and snowboarding"
+  },
+  {
+    "objectID": "about.html#get-to-know-me",
+    "href": "about.html#get-to-know-me",
+    "title": "About Mikkel Christensen",
+    "section": "Get to know me",
+    "text": "Get to know me\nHobbies\n\nSurfing\nRockclimbing\nReading\nGuitar\nHiking\nCamping"
+  },
+  {
+    "objectID": "about.html#hobbies",
+    "href": "about.html#hobbies",
+    "title": "About Mikkel Christensen",
+    "section": "Hobbies",
+    "text": "Hobbies"
   }
 ]

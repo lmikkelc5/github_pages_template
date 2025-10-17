@@ -1,15 +1,8 @@
 ---
-title: "About Me"
+title: "About Mikkel Christensen"
 ---
 
-## Background
-
-Write a brief introduction about yourself here. Include:
-
-- Your academic background
-- Your interest in data science
-- Your career goals
-- Any relevant experience or projects
+![](imgs/IMG_3899.jpg){width="300" fig-align="left" fig-alt="Headshot of Mikkel Christensen"}
 
 ## Education
 
@@ -81,6 +74,18 @@ GPA: 3.29/4.00 (Major GPA: 3.57/4.00) · ACT: 30/36
 - Machine Learning and Algo-trading
 - Work with stats in the fianance world
 - Hopefully how to make a ton of money, but i'll settle for slightly lesser goals like becoming profitable
+
+## Get to know me
+Hobbies
+
+- Surfing
+- Rockclimbing
+- Reading
+- Guitar 
+- Hiking
+- Camping
+
+I love spending time outdoors and trying new things. If I had to describe my habits when it comes to hobbies I would say a new one every month and I never finish any of them. The ones listed above are those that have lasted the test of time and are still in my life when possible. I hope to keep learning new things as I get older and find the hobbies that to me are worth pursuing long term and that bring me fulfillment in life.
 
 ## Contact
 
