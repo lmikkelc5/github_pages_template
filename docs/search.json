@@ -1,33 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome to Mikkel Christensens Data Science Portfolio",
-    "section": "",
-    "text": "My name is Mikkel and I grew up in San Diego, CA. Back home I loved going to the beach, surfing, hiking and rock climbing. The things I miss most about living there though is living 3 minutes from my neice and nephew but I love a lot of stuff about it as well. I have 4 sisters(yeah I know, it was torture) and we have a dog named Duke and 2 chickens. I love the sunny weather and living in the cold of Utah makes me miss it even more.\nMy dream is to do some type of stats work with the stock market but I am still working out the specifics. I have always loved the stock market even when its losing me money, but I find it very interesting and would love to get even more experience and knowledge about it one day. I am also open to other areas in stats like biostatistics but my main focus is the market.\n\n\n\nThanks for visiting my page and I hope you enjoy what you see! This is a collection of projects I have done in my Stat 386 class and I will add some of my own as well! I look forward to using this page to motivate me to complete projects and work on things that interest me and help me learn more about stats.\n\n\n\nThis portfolio shows my work learning data science. Each project includes:\n\nMy code with documentation\nVisualizations I created\nWhat I learned and discovered\n\nI built this site using Quarto and host it on GitHub Pages.\n\n\n\n\nProgramming: Python, Pandas for data analysis, R, Julia, C++\nVisualization: Creating charts with Matplotlib and Seaborn\nData Collection: Getting data from files, websites, and APIs\nAnalysis: Finding patterns and answering questions with data\n\n\n\n\n\n\n\nLearn about a topic that interests me!\n\n\n\nLearn how I explore datasets to find interesting patterns and answer questions.\n\n\n\nSee how I gather data from different sources and prepare it for analysis.\n\n\n\nSee how I tackle a data science project beginning to end.\n\n\n\nThanks for visiting! Feel free to explore my projects and see what I’m learning."
-  },
-  {
-    "objectID": "index.html#about-this-portfolio",
-    "href": "index.html#about-this-portfolio",
-    "title": "Welcome to Mikkel Christensens Data Science Portfolio",
-    "section": "",
-    "text": "This portfolio shows my work learning data science. Each project includes:\n\nMy code with documentation\nVisualizations I created\nWhat I learned and discovered\n\nI built this site using Quarto and host it on GitHub Pages."
-  },
-  {
-    "objectID": "index.html#skills-im-learning",
-    "href": "index.html#skills-im-learning",
-    "title": "Welcome to Mikkel Christensens Data Science Portfolio",
-    "section": "",
-    "text": "Programming: Python, Pandas for data analysis, R, Julia, C++\nVisualization: Creating charts with Matplotlib and Seaborn\nData Collection: Getting data from files, websites, and APIs\nAnalysis: Finding patterns and answering questions with data"
-  },
-  {
-    "objectID": "index.html#my-projects",
-    "href": "index.html#my-projects",
-    "title": "Welcome to Mikkel Christensens Data Science Portfolio",
-    "section": "",
-    "text": "Learn about a topic that interests me!\n\n\n\nLearn how I explore datasets to find interesting patterns and answer questions.\n\n\n\nSee how I gather data from different sources and prepare it for analysis.\n\n\n\nSee how I tackle a data science project beginning to end.\n\n\n\nThanks for visiting! Feel free to explore my projects and see what I’m learning."
-  },
-  {
     "objectID": "projects/index.html",
     "href": "projects/index.html",
     "title": "Projects Overview",
@@ -58,80 +30,11 @@
     ]
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About Me",
-    "section": "",
-    "text": "Headshot"
-  },
-  {
-    "objectID": "about.html#background",
-    "href": "about.html#background",
-    "title": "About Me",
-    "section": "",
-    "text": "Write a brief introduction about yourself here. Include:\n\nYour academic background\nYour interest in data science\nYour career goals\nAny relevant experience or projects"
-  },
-  {
-    "objectID": "about.html#education",
-    "href": "about.html#education",
-    "title": "About Mikkel Christensen",
-    "section": "Education",
-    "text": "Education\nBrigham Young University, Provo, UT\nB.S. in Statistics — Data Science, Apr 2027\nGPA: 3.29/4.00 (Major GPA: 3.57/4.00) · ACT: 30/36"
-  },
-  {
-    "objectID": "about.html#skills-interests",
-    "href": "about.html#skills-interests",
-    "title": "About Me",
-    "section": "Skills & Interests",
-    "text": "Skills & Interests\n\nTechnical Skills\n\nProgramming: Python\nData Analysis: Pandas, NumPy\nVisualization: Matplotlib, Seaborn\nMachine Learning: Scikit-learn\nTools: Jupyter Notebooks, Git/GitHub\n\n\n\nAreas of Interest\n\n[Your specific interests, e.g., environmental data, healthcare analytics, finance, etc.]\n[Other areas you’re curious about]"
-  },
-  {
-    "objectID": "about.html#goals",
-    "href": "about.html#goals",
-    "title": "About Mikkel Christensen",
-    "section": "Goals",
-    "text": "Goals\n\nMachine Learning and Algo-trading\nWork with stats in the fianance world\nHopefully how to make a ton of money, but i’ll settle for slightly lesser goals like becoming profitable"
-  },
-  {
-    "objectID": "about.html#contact",
-    "href": "about.html#contact",
-    "title": "About Mikkel Christensen",
-    "section": "Contact",
-    "text": "Contact\n\nEmail: lmikkelc5@gmail.com\nGitHub: https://github.com/lmikkelc5\nLinkedIn: www.linkedin.com/in/lmikkelc5\n\n\nThis portfolio showcases my learning progress and projects completed during my data science studies."
-  },
-  {
-    "objectID": "projects/data-acquisition.html",
-    "href": "projects/data-acquisition.html",
-    "title": "Data Acquisition Project",
-    "section": "",
-    "text": "This project explores a large amount of data from The Census Bureau API. I pulled data from the state of California (my home state). I manipulated the data and cleaned it and then began to research questions I had. A lot of these questions are things that I wondered about in high school and ones that arose as I explored the dataset that I had curated.",
-    "crumbs": [
-      "Data Acquisition Project"
-    ]
-  },
-  {
-    "objectID": "projects/final-project.html",
-    "href": "projects/final-project.html",
-    "title": "Final Project",
-    "section": "",
-    "text": "This is coming down the pipeline. Check again later.",
-    "crumbs": [
-      "Final Project"
-    ]
-  },
-  {
     "objectID": "projects/blog.html",
     "href": "projects/blog.html",
     "title": "My Blog",
     "section": "",
     "text": "Diversification of risk is the idea that as you ‘put your eggs in more baskets’ you minimize the overall risk. This is generally discussed within the investing community as a way to minimize the risk of losing large portions of your money. This is a very common principle but one that I think many people could benefit from understanding better.\n\n\n\nThe idea behind diversification is that as you increase the number of investments the chances of more than one dropping significantly decreases drastically. If one of your stocks move down signifiactly, say 25% but it only makes up 5% of your portfolio then you only end up losing 1.25% of your total portfolio value which is a much more manageable portion. This also increases the chance of one of your stocks moving up a significant amount. While diversification does minimize the return you would receive from an increase it increases the chances of you gaining some value in your portfolio. What this does is take your portfolio risk and minimize it. You are stuck with something called market risk but diversification gets rid of most of your portfolio specific risk.\n\n\n\nA graph showing market risk vs portfolio risk\n\n\n\n\n\nBelow is a chunk of code that visualizes the effect of adding a position to your portfolio.\nCopy this code and change the max_positions variable to see the effect of a different number of positions on risk(standard deviation).\nThis code:  - defines parameters  - creates a matrix  - it then simulates 10,000 portfolios following the parameters  - It then plots the different numbers of positions to show the effects on portfolio risk \nThe graph is for a portfolio size of $10000 with 50 positions.\n\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\n#Parameters you can change\nportfolio_size = 100_000\navg_return = 0.07\nvolatility = 0.20\ncorrelation = 0.1\nmax_positions = 50\nsimulations = 10_000\n\ndef simulate_portfolio(num_positions):\n    weights = np.ones(num_positions) / num_positions\n    \n    # covariance matrix\n    cov_matrix = (volatility**2) * (\n        correlation * np.ones((num_positions, num_positions)) +\n        (1 - correlation) * np.eye(num_positions)\n    )\n    \n    # portfolio variance\n    port_variance = weights @ cov_matrix @ weights.T\n    port_std_dev = np.sqrt(port_variance)\n    \n    return port_std_dev\n\n#simulations\npositions_range = range(1, max_positions+1)\nrisks = [simulate_portfolio(n) for n in positions_range]\n\n# plot it\nplt.figure(figsize=(8,5))\nplt.plot(positions_range, risks, marker=\"o\")\nplt.title(\"Portfolio Risk vs. Number of Positions\")\nplt.xlabel(\"Number of Positions\")\nplt.ylabel(\"Portfolio Risk (Std Dev)\")\nplt.grid(True)\nplt.show()\n\n\n\n\n\n\n\n\n\n\n\nOne measure of risk is The Sharpe Ratio. It is a mathematical formula used to measure risk against the expected return. By measuring risk adjusted return you can judge whether the return to risk ratio is ideal for your risk tolerance. It shows how much risk you have to take to make a certain profit, allowing you to not only predict profit but the risk you expose yourself to in the process of acheiving that profit.\n\\(R_p\\) = The portfolios return \\(R_f\\) = Risk free rate \\(\\sigma_p\\) = Standard Deviation of the portfolios excess return \\[\nThe Sharpe Ratio = (R_p - R_f)/\\sigma_p\n\\]\nThe higher The Sharpe Ratio the better your return to risk is. As you can see above in the chart as you increase the number of positions you decrease the portfolio risk, or \\(\\sigma_p\\). As you decrease the \\(\\sigma_p\\) you end up with a larger quotient or a better risk-adjusted performance.\n\n\n\n\nI am a firm believer that everyone should invest a portion of their savings. One benefit to understanding diversification and risk adjusted return is that people can choose an investment strategy that works for them. Someone younger may want to take a more aggressive approach ie. a higher risk strategy or they may take a safer approach that will compound year after year until they retire. When deciding your approach it’s important to think about your ability to handle risk, your long-term goals and when you plan to need the money. Many people will spread their money out among low-risk, medium risk and higher risk strategies to have a safety net but also to make long term gains. Diversification is the best way to improve your risk-adjusted performance, even if you aren’t constantly computing a Sharpe Ratio everytime you look at a new investment.\nEven if it’s 1 dollar or 1,000, everyone should start letting their money work for them. The sooner you start the more your money can compound and the happier and more financially stable you will be down the road.\nIf you want to learn more about diversification click here."
-  },
-  {
-    "objectID": "projects/blog.html#the-maths",
-    "href": "projects/blog.html#the-maths",
-    "title": "My Blog",
-    "section": "",
-    "text": "Below is a chunk of code that visualizes the effect of adding a position to your portfolio.\nCopy this code and change the max_positions variable to see the effect of a different number of positions on risk(standard deviation).\nThis code:  - defines parameters  - creates a matrix  - it then simulates 10,000 portfolios following the parameters  - It then plots the different numbers of positions to show the effects on portfolio risk \nThe graph is for a portfolio size of $10000 with 50 positions.\n\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\n#Parameters you can change\nportfolio_size = 100_000\navg_return = 0.07\nvolatility = 0.20\ncorrelation = 0.1\nmax_positions = 50\nsimulations = 10_000\n\ndef simulate_portfolio(num_positions):\n    weights = np.ones(num_positions) / num_positions\n    \n    # covariance matrix\n    cov_matrix = (volatility**2) * (\n        correlation * np.ones((num_positions, num_positions)) +\n        (1 - correlation) * np.eye(num_positions)\n    )\n    \n    # portfolio variance\n    port_variance = weights @ cov_matrix @ weights.T\n    port_std_dev = np.sqrt(port_variance)\n    \n    return port_std_dev\n\n#simulations\npositions_range = range(1, max_positions+1)\nrisks = [simulate_portfolio(n) for n in positions_range]\n\n# plot it\nplt.figure(figsize=(8,5))\nplt.plot(positions_range, risks, marker=\"o\")\nplt.title(\"Portfolio Risk vs. Number of Positions\")\nplt.xlabel(\"Number of Positions\")\nplt.ylabel(\"Portfolio Risk (Std Dev)\")\nplt.grid(True)\nplt.show()\n\n\n\n\n\n\n\n\n\n\n\nOne measure of risk is The Sharpe Ratio. It is a mathematical formula used to measure risk against the expected return. By measuring risk adjusted return you can judge whether the return to risk ratio is ideal for your risk tolerance. It shows how much risk you have to take to make a certain profit, allowing you to not only predict profit but the risk you expose yourself to in the process of acheiving that profit.\n\\(R_p\\) = The portfolios return \\(R_f\\) = Risk free rate \\(\\sigma_p\\) = Standard Deviation of the portfolios excess return \\[\nThe Sharpe Ratio = (R_p - R_f)/\\sigma_p\n\\]\nThe higher The Sharpe Ratio the better your return to risk is. As you can see above in the chart as you increase the number of positions you decrease the portfolio risk, or \\(\\sigma_p\\). As you decrease the \\(\\sigma_p\\) you end up with a larger quotient or a better risk-adjusted performance."
   },
   {
     "objectID": "projects/blog.html#what-is-diversification-of-risk",
@@ -141,18 +44,18 @@
     "text": "Diversification of risk is the idea that as you ‘put your eggs in more baskets’ you minimize the overall risk. This is generally discussed within the investing community as a way to minimize the risk of losing large portions of your money. This is a very common principle but one that I think many people could benefit from understanding better."
   },
   {
-    "objectID": "projects/blog.html#how-does-this-apply-in-the-world-of-finance-and-can-it-apply-elsewhere",
-    "href": "projects/blog.html#how-does-this-apply-in-the-world-of-finance-and-can-it-apply-elsewhere",
-    "title": "My Blog",
-    "section": "",
-    "text": "This is generally discussed within the investing community as a way to minimize the risk of losing large portions of your money."
-  },
-  {
     "objectID": "projects/blog.html#the-idea",
     "href": "projects/blog.html#the-idea",
     "title": "My Blog",
     "section": "",
     "text": "The idea behind diversification is that as you increase the number of investments the chances of more than one dropping significantly decreases drastically. If one of your stocks move down signifiactly, say 25% but it only makes up 5% of your portfolio then you only end up losing 1.25% of your total portfolio value which is a much more manageable portion. This also increases the chance of one of your stocks moving up a significant amount. While diversification does minimize the return you would receive from an increase it increases the chances of you gaining some value in your portfolio. What this does is take your portfolio risk and minimize it. You are stuck with something called market risk but diversification gets rid of most of your portfolio specific risk.\n\n\n\nA graph showing market risk vs portfolio risk"
+  },
+  {
+    "objectID": "projects/blog.html#the-maths",
+    "href": "projects/blog.html#the-maths",
+    "title": "My Blog",
+    "section": "",
+    "text": "Below is a chunk of code that visualizes the effect of adding a position to your portfolio.\nCopy this code and change the max_positions variable to see the effect of a different number of positions on risk(standard deviation).\nThis code:  - defines parameters  - creates a matrix  - it then simulates 10,000 portfolios following the parameters  - It then plots the different numbers of positions to show the effects on portfolio risk \nThe graph is for a portfolio size of $10000 with 50 positions.\n\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\n#Parameters you can change\nportfolio_size = 100_000\navg_return = 0.07\nvolatility = 0.20\ncorrelation = 0.1\nmax_positions = 50\nsimulations = 10_000\n\ndef simulate_portfolio(num_positions):\n    weights = np.ones(num_positions) / num_positions\n    \n    # covariance matrix\n    cov_matrix = (volatility**2) * (\n        correlation * np.ones((num_positions, num_positions)) +\n        (1 - correlation) * np.eye(num_positions)\n    )\n    \n    # portfolio variance\n    port_variance = weights @ cov_matrix @ weights.T\n    port_std_dev = np.sqrt(port_variance)\n    \n    return port_std_dev\n\n#simulations\npositions_range = range(1, max_positions+1)\nrisks = [simulate_portfolio(n) for n in positions_range]\n\n# plot it\nplt.figure(figsize=(8,5))\nplt.plot(positions_range, risks, marker=\"o\")\nplt.title(\"Portfolio Risk vs. Number of Positions\")\nplt.xlabel(\"Number of Positions\")\nplt.ylabel(\"Portfolio Risk (Std Dev)\")\nplt.grid(True)\nplt.show()\n\n\n\n\n\n\n\n\n\n\n\nOne measure of risk is The Sharpe Ratio. It is a mathematical formula used to measure risk against the expected return. By measuring risk adjusted return you can judge whether the return to risk ratio is ideal for your risk tolerance. It shows how much risk you have to take to make a certain profit, allowing you to not only predict profit but the risk you expose yourself to in the process of acheiving that profit.\n\\(R_p\\) = The portfolios return \\(R_f\\) = Risk free rate \\(\\sigma_p\\) = Standard Deviation of the portfolios excess return \\[\nThe Sharpe Ratio = (R_p - R_f)/\\sigma_p\n\\]\nThe higher The Sharpe Ratio the better your return to risk is. As you can see above in the chart as you increase the number of positions you decrease the portfolio risk, or \\(\\sigma_p\\). As you decrease the \\(\\sigma_p\\) you end up with a larger quotient or a better risk-adjusted performance."
   },
   {
     "objectID": "projects/blog.html#what-should-you-do",
@@ -162,18 +65,18 @@
     "text": "I am a firm believer that everyone should invest a portion of their savings. One benefit to understanding diversification and risk adjusted return is that people can choose an investment strategy that works for them. Someone younger may want to take a more aggressive approach ie. a higher risk strategy or they may take a safer approach that will compound year after year until they retire. When deciding your approach it’s important to think about your ability to handle risk, your long-term goals and when you plan to need the money. Many people will spread their money out among low-risk, medium risk and higher risk strategies to have a safety net but also to make long term gains. Diversification is the best way to improve your risk-adjusted performance, even if you aren’t constantly computing a Sharpe Ratio everytime you look at a new investment.\nEven if it’s 1 dollar or 1,000, everyone should start letting their money work for them. The sooner you start the more your money can compound and the happier and more financially stable you will be down the road.\nIf you want to learn more about diversification click here."
   },
   {
-    "objectID": "index.html#introduction",
-    "href": "index.html#introduction",
-    "title": "Welcome to Mikkel Christensens Data Science Portfolio",
+    "objectID": "projects/backup/eda.html",
+    "href": "projects/backup/eda.html",
+    "title": "",
     "section": "",
-    "text": "My name is Mikkel and I grew up in San Diego, CA. Back home I loved going to the beach, surfing, hiking and rock climbing. The things I miss most about living there though is living 3 minutes from my neice and nephew but I love a lot of stuff about it as well. I have 4 sisters(yeah I know, it was torture) and we have a dog named Duke and 2 chickens. I love the sunny weather and living in the cold of Utah makes me miss it even more.\nMy dream is to do some type of stats work with the stock market but I am still working out the specifics. I have always loved the stock market even when its losing me money, but I find it very interesting and would love to get even more experience and knowledge about it one day. I am also open to other areas in stats like biostatistics but my main focus is the market."
+    "text": "Code"
   },
   {
-    "objectID": "index.html#mission-statement",
-    "href": "index.html#mission-statement",
-    "title": "Welcome to Mikkel Christensens Data Science Portfolio",
-    "section": "",
-    "text": "Thanks for visiting my page and I hope you enjoy what you see! This is a collection of projects I have done in my Stat 386 class and I will add some of my own as well! I look forward to using this page to motivate me to complete projects and work on things that interest me and help me learn more about stats."
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About Mikkel Christensen",
+    "section": "Education",
+    "text": "Education\nBrigham Young University, Provo, UT\nB.S. in Statistics — Data Science, Apr 2027\nGPA: 3.29/4.00 (Major GPA: 3.57/4.00) · ACT: 30/36"
   },
   {
     "objectID": "about.html#experience",
@@ -204,6 +107,13 @@
     "text": "Personal\n\nEagle Scout\n\nGraduated from high school as part of the California Scholarship Federation\n\nRock-climbing, weightlifting, surfing, swimming, and snowboarding"
   },
   {
+    "objectID": "about.html#goals",
+    "href": "about.html#goals",
+    "title": "About Mikkel Christensen",
+    "section": "Goals",
+    "text": "Goals\n\nMachine Learning and Algo-trading\nWork with stats in the fianance world\nHopefully how to make a ton of money, but i’ll settle for slightly lesser goals like becoming profitable"
+  },
+  {
     "objectID": "about.html#get-to-know-me",
     "href": "about.html#get-to-know-me",
     "title": "About Mikkel Christensen",
@@ -211,78 +121,53 @@
     "text": "Get to know me\nHobbies\n\nSurfing\nRockclimbing\nReading\nGuitar\nHiking\nCamping\n\nI love spending time outdoors and trying new things. If I had to describe my habits when it comes to hobbies I would say a new one every month and I never finish any of them. The ones listed above are those that have lasted the test of time and are still in my life when possible. I hope to keep learning new things as I get older and find the hobbies that to me are worth pursuing long term and that bring me fulfillment in life."
   },
   {
-    "objectID": "about.html#hobbies",
-    "href": "about.html#hobbies",
+    "objectID": "about.html#contact",
+    "href": "about.html#contact",
     "title": "About Mikkel Christensen",
-    "section": "Hobbies",
-    "text": "Hobbies"
+    "section": "Contact",
+    "text": "Contact\n\nEmail: lmikkelc5@gmail.com\nGitHub: https://github.com/lmikkelc5\nLinkedIn: www.linkedin.com/in/lmikkelc5\n\n\nThis portfolio showcases my learning progress and projects completed during my data science studies."
   },
   {
-    "objectID": "projects/data-acquisition.html#introduction-why-this-project-is-relevant-and-interesting",
-    "href": "projects/data-acquisition.html#introduction-why-this-project-is-relevant-and-interesting",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to Mikkel Christensens Data Science Portfolio",
+    "section": "",
+    "text": "My name is Mikkel and I grew up in San Diego, CA. Back home I loved going to the beach, surfing, hiking and rock climbing. The things I miss most about living there though is living 3 minutes from my neice and nephew but I love a lot of stuff about it as well. I have 4 sisters(yeah I know, it was torture) and we have a dog named Duke and 2 chickens. I love the sunny weather and living in the cold of Utah makes me miss it even more.\nMy dream is to do some type of stats work with the stock market but I am still working out the specifics. I have always loved the stock market even when its losing me money, but I find it very interesting and would love to get even more experience and knowledge about it one day. I am also open to other areas in stats like biostatistics but my main focus is the market.\n\n\n\nThanks for visiting my page and I hope you enjoy what you see! This is a collection of projects I have done in my Stat 386 class and I will add some of my own as well! I look forward to using this page to motivate me to complete projects and work on things that interest me and help me learn more about stats.\n\n\n\nThis portfolio shows my work learning data science. Each project includes:\n\nMy code with documentation\nVisualizations I created\nWhat I learned and discovered\n\nI built this site using Quarto and host it on GitHub Pages.\n\n\n\n\nProgramming: Python, Pandas for data analysis, R, Julia, C++\nVisualization: Creating charts with Matplotlib and Seaborn\nData Collection: Getting data from files, websites, and APIs\nAnalysis: Finding patterns and answering questions with data\n\n\n\n\n\n\n\nLearn about a topic that interests me!\n\n\n\nLearn how I explore datasets to find interesting patterns and answer questions.\n\n\n\nSee how I gather data from different sources and prepare it for analysis.\n\n\n\nSee how I tackle a data science project beginning to end.\n\n\n\nThanks for visiting! Feel free to explore my projects and see what I’m learning."
+  },
+  {
+    "objectID": "index.html#about-this-portfolio",
+    "href": "index.html#about-this-portfolio",
+    "title": "Welcome to Mikkel Christensens Data Science Portfolio",
+    "section": "",
+    "text": "This portfolio shows my work learning data science. Each project includes:\n\nMy code with documentation\nVisualizations I created\nWhat I learned and discovered\n\nI built this site using Quarto and host it on GitHub Pages."
+  },
+  {
+    "objectID": "index.html#skills-im-learning",
+    "href": "index.html#skills-im-learning",
+    "title": "Welcome to Mikkel Christensens Data Science Portfolio",
+    "section": "",
+    "text": "Programming: Python, Pandas for data analysis, R, Julia, C++\nVisualization: Creating charts with Matplotlib and Seaborn\nData Collection: Getting data from files, websites, and APIs\nAnalysis: Finding patterns and answering questions with data"
+  },
+  {
+    "objectID": "index.html#my-projects",
+    "href": "index.html#my-projects",
+    "title": "Welcome to Mikkel Christensens Data Science Portfolio",
+    "section": "",
+    "text": "Learn about a topic that interests me!\n\n\n\nLearn how I explore datasets to find interesting patterns and answer questions.\n\n\n\nSee how I gather data from different sources and prepare it for analysis.\n\n\n\nSee how I tackle a data science project beginning to end.\n\n\n\nThanks for visiting! Feel free to explore my projects and see what I’m learning."
+  },
+  {
+    "objectID": "projects/backup/final-project.html",
+    "href": "projects/backup/final-project.html",
+    "title": "",
+    "section": "",
+    "text": "Code"
+  },
+  {
+    "objectID": "projects/data-acquisition.html",
+    "href": "projects/data-acquisition.html",
     "title": "Data Acquisition Project",
     "section": "",
-    "text": "This project explores a large amount of data from The Census Bureau API. I pulled data from the state of California (my home state). I manipulated the data and cleaned it and then began to research questions I had. A lot of these questions are things that I wondered about in high school and ones that arose as I explored the dataset that I had curated.",
-    "crumbs": [
-      "Data Acquisition Project"
-    ]
-  },
-  {
-    "objectID": "projects/data-acquisition.html#motivating-question-what-are-you-hoping-to-learn-from-this-data",
-    "href": "projects/data-acquisition.html#motivating-question-what-are-you-hoping-to-learn-from-this-data",
-    "title": "Data Acquisition Project",
-    "section": "Motivating question (what are you hoping to learn from this data?)",
-    "text": "Motivating question (what are you hoping to learn from this data?)\n\nIs there a correlation between peoples income and if they own a cell phone or not?\nIs there a correlation between income and age?\nIs there a correlation between race and if they own a cell phone or not.\n\nI explored all of these questions but in the end I chose to focus more on the correlation between income and smartphone ownership.\n\nHow do I know this was ethical?\nThe process for getting this data was actually quite simple. I agreed to their terms and conditions and then applied for an API key which I received in about 2 min. The data is all public the main concern the terms and conditions focused on is that no one uses the data to try and figure out who individuals are. I was using this data for a much higher level analysis of the dataset as a whole so this was not an issue.\n\n\nGood scraping practices\nTo avoid overloading their servers I did my best to only use the API once for each year of data I pulled. I also did not ever put it in a loop so that I didn’t pull the data over and over again without needing to. My API key is also saved in seperate folder that won’t be uploaded to github to protect it.",
-    "crumbs": [
-      "Data Acquisition Project"
-    ]
-  },
-  {
-    "objectID": "projects/data-acquisition.html#summary-of-the-steps-needed-to-get-your-data-with-an-emphasis-on-teaching-other-how-they-could-get-started-with-a-similar-project",
-    "href": "projects/data-acquisition.html#summary-of-the-steps-needed-to-get-your-data-with-an-emphasis-on-teaching-other-how-they-could-get-started-with-a-similar-project",
-    "title": "Data Acquisition Project",
-    "section": "Summary of the steps needed to get your data with an emphasis on teaching other how they could get started with a similar project",
-    "text": "Summary of the steps needed to get your data with an emphasis on teaching other how they could get started with a similar project\nThe API call: One of the benefits I learned about APIs is that it makes collecting the data a lot simpler than if I were to webscrape it piece by piece from a website. I had to scan through a list of all the different variables that were available and choose the ones that I wanted included and from there it was only a matter of 1 API call that gave me all the data I could ever want and more for each year.\nCleaning the data: The grunt of what I had to do to clean this data was renaming columns to be less clunky and using provided tables to convert the numbers used for race and sex to be the strings associated with those values. This improved the readability of the data and allowed me to get more comfortable with it.\nInterpretation and summary: I then went through and wrote code that would work on all my years of data to plot and explore the data. While a lot of the charts and graphs I created showed little to nothing due to a lack of correlation I got very familiar with the data and was able to see what was going on inside of it.",
-    "crumbs": [
-      "Data Acquisition Project"
-    ]
-  },
-  {
-    "objectID": "projects/data-acquisition.html#eda-highlights",
-    "href": "projects/data-acquisition.html#eda-highlights",
-    "title": "Data Acquisition Project",
-    "section": "EDA highlights:",
-    "text": "EDA highlights:\n\nFisher’s Test\nFisher’s V Test: This tests whether 2 correlation coefficients are significantly different from each other. After testing the correlation between the 3 years of data I ran Fishers V test to see if the years 2021 and 2023 were statistically different and I got a p-value of 0.0000000003. Since this p-value is less than 0.05 we know that the difference is statistically significant.\n\n\nGraph showing the change in correlation from year to year\n\n\n\nGraph showing how the correlation between income and smartphone ownership has decresased from 2021 - 2023\n\n\n\n\nFinal Dataset info information about final dataset (e.g., total sample size, counts of categorical variables, numerical summaries of numeric variables)\ndata2023.csv\nn = 269,956\ncategorical variable: 6\nnumeric variables: 3\ncolumns:\nindex | serial | sex | age | household_income | smartphone | race_label | state | year\ndata2022.csv\nn = 265,325\ncolumns:\nindex | serial | sex | age | household_income | smartphone | race_label | state | year\ndata2021.csv\nn = 262,670\ncolumns:\nindex | serial | sex | age | household_income | smartphone | race_label | state | year",
-    "crumbs": [
-      "Data Acquisition Project"
-    ]
-  },
-  {
-    "objectID": "projects/data-acquisition.html#what-are-the-most-interesting-findings-of-your-eda",
-    "href": "projects/data-acquisition.html#what-are-the-most-interesting-findings-of-your-eda",
-    "title": "Data Acquisition Project",
-    "section": "What are the most interesting findings of your EDA?",
-    "text": "What are the most interesting findings of your EDA?",
-    "crumbs": [
-      "Data Acquisition Project"
-    ]
-  },
-  {
-    "objectID": "projects/data-acquisition.html#links-to-find-further-information-and-or-resources",
-    "href": "projects/data-acquisition.html#links-to-find-further-information-and-or-resources",
-    "title": "Data Acquisition Project",
-    "section": "Links to find further information and /or resources",
-    "text": "Links to find further information and /or resources",
-    "crumbs": [
-      "Data Acquisition Project"
-    ]
-  },
-  {
-    "objectID": "projects/data-acquisition.html#a-link-to-your-code-in-a-separate-github-repo",
-    "href": "projects/data-acquisition.html#a-link-to-your-code-in-a-separate-github-repo",
-    "title": "Data Acquisition Project",
-    "section": "A link to your code in a separate GitHub repo",
-    "text": "A link to your code in a separate GitHub repo",
+    "text": "This project explores data from The Census Bureau API. I pulled the data from the state of California (my home state). I manipulated the data and cleaned it and then began to research questions I had. A lot of these questions are things that I wondered about previously and ones that arose as I explored the dataset that I had created.",
     "crumbs": [
       "Data Acquisition Project"
     ]
@@ -292,9 +177,79 @@
     "href": "projects/data-acquisition.html#introduction",
     "title": "Data Acquisition Project",
     "section": "",
-    "text": "This project explores a large amount of data from The Census Bureau API. I pulled data from the state of California (my home state). I manipulated the data and cleaned it and then began to research questions I had. A lot of these questions are things that I wondered about in high school and ones that arose as I explored the dataset that I had curated.",
+    "text": "This project explores data from The Census Bureau API. I pulled the data from the state of California (my home state). I manipulated the data and cleaned it and then began to research questions I had. A lot of these questions are things that I wondered about previously and ones that arose as I explored the dataset that I had created.",
     "crumbs": [
       "Data Acquisition Project"
+    ]
+  },
+  {
+    "objectID": "projects/data-acquisition.html#motivating-question-what-are-you-hoping-to-learn-from-this-data",
+    "href": "projects/data-acquisition.html#motivating-question-what-are-you-hoping-to-learn-from-this-data",
+    "title": "Data Acquisition Project",
+    "section": "Motivating question (what are you hoping to learn from this data?)",
+    "text": "Motivating question (what are you hoping to learn from this data?)\n\nIs there a correlation between peoples income and if they own a cell phone or not?\nIs there a correlation between income and age?\nIs there a correlation between race and if they own a cell phone or not?\n\nI explored all of these questions but in the end I chose to focus more on the correlation between income and smartphone ownership.\n\nHow do I know this was ethical?\nThe process for getting this data was actually quite simple. I agreed to their terms and conditions and then applied for an API key which I received in about 2 min. The data is all public the main concern the terms and conditions focused on is that no one uses the data to try and figure out who individuals in the dataset are. I was using this data for a much higher level analysis of the dataset as a whole so this was not an issue.\n\n\nGood scraping practices\nTo avoid overloading their servers I did my best to only use the API once for each year of data I pulled. I also did not ever put it in a loop, which you can do but since it didn’t make sense I didn’t, and this made it so that I didn’t pull the data over and over again without needing to. My API key is also saved in seperate folder that won’t be uploaded to github to protect it.",
+    "crumbs": [
+      "Data Acquisition Project"
+    ]
+  },
+  {
+    "objectID": "projects/data-acquisition.html#summary",
+    "href": "projects/data-acquisition.html#summary",
+    "title": "Data Acquisition Project",
+    "section": "Summary",
+    "text": "Summary\nThe API call: One of the benefits I learned about APIs is that it makes collecting the data a lot simpler than if I were to webscrape it piece by piece from a website. I had to scan through a list of all the different variables that were available and choose the ones that I wanted included and from there it was only a matter of 1 API call that gave me all the data I could ever want and more for each year.\nCleaning the data: The grunt of what I had to do to clean this data was renaming columns to be less clunky and using provided tables to convert the numbers used for race and sex to be the strings associated with those values. This improved the readability of the data and allowed me to get more comfortable with it.\nInterpretation and summary: I then went through and wrote code that would work on all my years of data to plot and explore the data. While a lot of the charts and graphs I created showed little to nothing due to a lack of correlation I got very familiar with the data and was able to see what was going on inside of it. This led me to the final observations I made and the trends I was able to identify.",
+    "crumbs": [
+      "Data Acquisition Project"
+    ]
+  },
+  {
+    "objectID": "projects/data-acquisition.html#eda-highlights",
+    "href": "projects/data-acquisition.html#eda-highlights",
+    "title": "Data Acquisition Project",
+    "section": "EDA highlights:",
+    "text": "EDA highlights:\n\nFindings\nAfter finding a lack of correlation between smartphones and income I compared the trend of the correlation coefficients year to year to see if it was decreasing over time. This yielded results which I will show below.\n\n\nFisher’s Test\nFisher’s V Test: This tests whether 2 correlation coefficients are significantly different from each other. After testing the correlation between the 3 years of data I ran Fishers V test to see if the years 2021 and 2023 were statistically different and I got a p-value of 0.0000000003. Since this p-value is less than 0.05 we know that the difference is statistically significant.\n\n\nGraph showing the change in correlation from year to year\n\n\n\nFinal Dataset Info\ndata2023.csv\nn = 269,956\ncategorical variables: 6\nnumeric variables: 3\ncolumns:\nindex | serial | sex | age | household_income | smartphone | race_label | state | year\ndata2022.csv\nn = 265,325\ncategorical variables: 6\nnumeric variables: 3\ncolumns:\nindex | serial | sex | age | household_income | smartphone | race_label | state | year\ndata2021.csv\nn = 262,670\ncategorical variables: 6\nnumeric variables: 3\ncolumns:\nindex | serial | sex | age | household_income | smartphone | race_label | state | year",
+    "crumbs": [
+      "Data Acquisition Project"
+    ]
+  },
+  {
+    "objectID": "projects/data-acquisition.html#what-are-the-most-interesting-findings-of-your-eda",
+    "href": "projects/data-acquisition.html#what-are-the-most-interesting-findings-of-your-eda",
+    "title": "Data Acquisition Project",
+    "section": "What are the most interesting findings of your EDA?",
+    "text": "What are the most interesting findings of your EDA?\nThe fact that the correlation between income and smartphones is decreasing over time shows that phones are moving farther from discretionary items and closer to necessities in todays world. I find this quite interesting, especially since this trend shows up from 2021-2023. I wish I could’ve tested farther back but before 2021 the Census did not have data on smartphones. I imagine this trend is even stronger the close you get to when smartphones entered out society. It also goes to show the magnitude of the impact that smartphones have had upon our society. Even something that is generally pretty expensive compared other necessities is owned by a very large portion of people (~97.1% in 2023) and barely decreases in ownership under the poverty line. I think that this says a lot about our society and the weight we place on our technology. I do think it shows something as well that this far into the trend, even dealing with tiny correlation coefficients we are able to see a statistically significant trend in the correlation. At first I was annoyed that I wasn’t able to find any correlation in the data but by comparing the coefficients I was able to find a trend that taught me something about what I was researching.",
+    "crumbs": [
+      "Data Acquisition Project"
+    ]
+  },
+  {
+    "objectID": "projects/data-acquisition.html#additional-resources",
+    "href": "projects/data-acquisition.html#additional-resources",
+    "title": "Data Acquisition Project",
+    "section": "Additional resources",
+    "text": "Additional resources\nThe Census Bureau",
+    "crumbs": [
+      "Data Acquisition Project"
+    ]
+  },
+  {
+    "objectID": "projects/data-acquisition.html#a-link-to-the-github-repo",
+    "href": "projects/data-acquisition.html#a-link-to-the-github-repo",
+    "title": "Data Acquisition Project",
+    "section": "A link to the Github repo",
+    "text": "A link to the Github repo\nGithub Repository",
+    "crumbs": [
+      "Data Acquisition Project"
+    ]
+  },
+  {
+    "objectID": "projects/final-project.html",
+    "href": "projects/final-project.html",
+    "title": "Final Project",
+    "section": "",
+    "text": "This is coming down the pipeline. Check again later.",
+    "crumbs": [
+      "Final Project"
     ]
   }
 ]
