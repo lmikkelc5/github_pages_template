@@ -24,7 +24,7 @@ The process for getting this data was actually quite simple. I agreed to their t
 ### Good scraping practices
 To avoid overloading their servers I did my best to only use the API once for each year of data I pulled. I also did not ever put it in a loop, which you can do but since it didn't make sense I didn't, and this made it so that I didn't pull the data over and over again without needing to. My API key is also saved in seperate folder that won't be uploaded to github to protect it.
 
-## Summary of the steps needed to get your data with an emphasis on teaching other how they could get started with a similar project
+## Summary
 The API call: One of the benefits I learned about APIs is that it makes collecting the data a lot simpler than if I were to webscrape it piece by piece from a website. I had to scan through a list of all the different variables that were available and choose the ones that I wanted included and from there it was only a matter of 1 API call that gave me all the data I could ever want and more for each year.
 
 Cleaning the data: The grunt of what I had to do to clean this data was renaming columns to be less clunky and using provided tables to convert the numbers used for race and sex to be the strings associated with those values. This improved the readability of the data and allowed me to get more comfortable with it. 
