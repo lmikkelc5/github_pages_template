@@ -1,15 +1,13 @@
 ---
 title: "Data Acquisition Project"
-author: "Your Name"
-date: "2025-01-01"
+author: "Mikkel Christensen"
+date: "2025-11-12"
 format:
   html:
     code-fold: true
     toc: true
 ---
-# Data exploration and EDA Blog
-
-## Introduction / why this project is relevant and interesting
+## Introduction
 This project explores a large amount of data from The Census Bureau API. I pulled data from the state of California (my home state). I manipulated the data and cleaned it and then began to research questions I had. A lot of these questions are things that I wondered about in high school and ones that arose as I explored the dataset that I had curated.
 
 ## Motivating question (what are you hoping to learn from this data?)
@@ -35,11 +33,53 @@ Interpretation and summary: I then went through and wrote code that would work o
 
 ## EDA highlights: 
 
-### summary statistics, 
+### Fisher's Test
+Fisher's V Test: This tests whether 2 correlation coefficients are significantly different from each other. After testing the correlation between the 3 years of data I ran Fishers V test to see if the years 2021 and 2023 were statistically different and I got a p-value of 0.0000000003. Since this p-value is less than 0.05 we know that the difference is statistically significant.
 
-### summary graphics, and/or 
+### Graph showing the change in correlation from year to year
+![Graph showing how the correlation between income and smartphone ownership has decresased from 2021 - 2023](..\imgs\incomevssmartphone.png)
 
-### information about final dataset (e.g., total sample size, counts of categorical variables, numerical summaries of numeric variables)
+### Final Dataset info information about final dataset (e.g., total sample size, counts of categorical variables, numerical summaries of numeric variables)
+
+**data2023.csv**
+
+n = 269,956
+
+categorical variables: 6
+
+numeric variables: 3
+
+columns:
+
+index | serial | sex | age | household_income | smartphone | race_label | state | year
+
+**data2022.csv**
+
+n = 265,325
+
+categorical variables: 6
+
+numeric variables: 3
+
+columns:
+
+index | serial | sex | age | household_income | smartphone | race_label | state | year
+
+**data2021.csv**
+
+n = 262,670
+
+categorical variables: 6
+
+numeric variables: 3
+
+columns:
+
+index | serial | sex | age | household_income | smartphone | race_label | state | year
+
 ## What are the most interesting findings of your EDA?
-## Links to find further information and /or resources
-## A link to your code in a separate GitHub repo
+
+The fact that the correlation between income and smartphones is decreasing over time shows that phones are moving farther from discretionary items and closer to necessities in todays world. I find this quite interesting, especially since this trend shows up from 2021-2023. I wish I could've tested farther back but before 2021 the Census did not have data on smartphones. I imagine this trend is even stronger the close you get to when smartphones entered out society. It also goes to show the magnitude of the impact that smartphones have had upon our society. Even something that is generally pretty expensive compared other necessities is owned by a very large portion of people (~97.1% in 2023) and barely decreases in ownership under the poverty line. I think that this says a lot about our society and the weight we place on our technology. I do think it shows something as well that this far into the trend, even dealing with tiny correlation coefficients we are able to see a statistically significant trend in the correlation. At first I was annoyed that I wasn't able to find any correlation in the data but by comparing the coefficients I was able to find a trend that taught me something about what I was researching.
+
+## A link to the Github repo
+[Github Repository](https://github.com/lmikkelc5/data-acquisition-blog.git)

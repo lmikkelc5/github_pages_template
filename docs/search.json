@@ -104,7 +104,7 @@
     "href": "projects/data-acquisition.html",
     "title": "Data Acquisition Project",
     "section": "",
-    "text": "This is coming down the pipeline. Check again later.",
+    "text": "This project explores a large amount of data from The Census Bureau API. I pulled data from the state of California (my home state). I manipulated the data and cleaned it and then began to research questions I had. A lot of these questions are things that I wondered about in high school and ones that arose as I explored the dataset that I had curated.",
     "crumbs": [
       "Data Acquisition Project"
     ]
@@ -220,9 +220,9 @@
   {
     "objectID": "projects/data-acquisition.html#introduction-why-this-project-is-relevant-and-interesting",
     "href": "projects/data-acquisition.html#introduction-why-this-project-is-relevant-and-interesting",
-    "title": "",
-    "section": "Introduction / why this project is relevant and interesting",
-    "text": "Introduction / why this project is relevant and interesting\nThis project explores a large amount of data from The Census Bureau API. I pulled data from the state of California (my home state). I manipulated the data and cleaned it and then began to research questions I had. A lot of these questions are things that I wondered about in high school and ones that arose as I explored the dataset that I had curated.",
+    "title": "Data Acquisition Project",
+    "section": "",
+    "text": "This project explores a large amount of data from The Census Bureau API. I pulled data from the state of California (my home state). I manipulated the data and cleaned it and then began to research questions I had. A lot of these questions are things that I wondered about in high school and ones that arose as I explored the dataset that I had curated.",
     "crumbs": [
       "Data Acquisition Project"
     ]
@@ -230,7 +230,7 @@
   {
     "objectID": "projects/data-acquisition.html#motivating-question-what-are-you-hoping-to-learn-from-this-data",
     "href": "projects/data-acquisition.html#motivating-question-what-are-you-hoping-to-learn-from-this-data",
-    "title": "",
+    "title": "Data Acquisition Project",
     "section": "Motivating question (what are you hoping to learn from this data?)",
     "text": "Motivating question (what are you hoping to learn from this data?)\n\nIs there a correlation between peoples income and if they own a cell phone or not?\nIs there a correlation between income and age?\nIs there a correlation between race and if they own a cell phone or not.\n\nI explored all of these questions but in the end I chose to focus more on the correlation between income and smartphone ownership.\n\nHow do I know this was ethical?\nThe process for getting this data was actually quite simple. I agreed to their terms and conditions and then applied for an API key which I received in about 2 min. The data is all public the main concern the terms and conditions focused on is that no one uses the data to try and figure out who individuals are. I was using this data for a much higher level analysis of the dataset as a whole so this was not an issue.\n\n\nGood scraping practices\nTo avoid overloading their servers I did my best to only use the API once for each year of data I pulled. I also did not ever put it in a loop so that I didn’t pull the data over and over again without needing to. My API key is also saved in seperate folder that won’t be uploaded to github to protect it.",
     "crumbs": [
@@ -240,7 +240,7 @@
   {
     "objectID": "projects/data-acquisition.html#summary-of-the-steps-needed-to-get-your-data-with-an-emphasis-on-teaching-other-how-they-could-get-started-with-a-similar-project",
     "href": "projects/data-acquisition.html#summary-of-the-steps-needed-to-get-your-data-with-an-emphasis-on-teaching-other-how-they-could-get-started-with-a-similar-project",
-    "title": "",
+    "title": "Data Acquisition Project",
     "section": "Summary of the steps needed to get your data with an emphasis on teaching other how they could get started with a similar project",
     "text": "Summary of the steps needed to get your data with an emphasis on teaching other how they could get started with a similar project\nThe API call: One of the benefits I learned about APIs is that it makes collecting the data a lot simpler than if I were to webscrape it piece by piece from a website. I had to scan through a list of all the different variables that were available and choose the ones that I wanted included and from there it was only a matter of 1 API call that gave me all the data I could ever want and more for each year.\nCleaning the data: The grunt of what I had to do to clean this data was renaming columns to be less clunky and using provided tables to convert the numbers used for race and sex to be the strings associated with those values. This improved the readability of the data and allowed me to get more comfortable with it.\nInterpretation and summary: I then went through and wrote code that would work on all my years of data to plot and explore the data. While a lot of the charts and graphs I created showed little to nothing due to a lack of correlation I got very familiar with the data and was able to see what was going on inside of it.",
     "crumbs": [
@@ -250,9 +250,9 @@
   {
     "objectID": "projects/data-acquisition.html#eda-highlights",
     "href": "projects/data-acquisition.html#eda-highlights",
-    "title": "",
+    "title": "Data Acquisition Project",
     "section": "EDA highlights:",
-    "text": "EDA highlights:\n\nsummary statistics,\n\n\nsummary graphics, and/or\n\n\ninformation about final dataset (e.g., total sample size, counts of categorical variables, numerical summaries of numeric variables)",
+    "text": "EDA highlights:\n\nFisher’s Test\nFisher’s V Test: This tests whether 2 correlation coefficients are significantly different from each other. After testing the correlation between the 3 years of data I ran Fishers V test to see if the years 2021 and 2023 were statistically different and I got a p-value of 0.0000000003. Since this p-value is less than 0.05 we know that the difference is statistically significant.\n\n\nGraph showing the change in correlation from year to year\n\n\n\nGraph showing how the correlation between income and smartphone ownership has decresased from 2021 - 2023\n\n\n\n\nFinal Dataset info information about final dataset (e.g., total sample size, counts of categorical variables, numerical summaries of numeric variables)\ndata2023.csv\nn = 269,956\ncategorical variable: 6\nnumeric variables: 3\ncolumns:\nindex | serial | sex | age | household_income | smartphone | race_label | state | year\ndata2022.csv\nn = 265,325\ncolumns:\nindex | serial | sex | age | household_income | smartphone | race_label | state | year\ndata2021.csv\nn = 262,670\ncolumns:\nindex | serial | sex | age | household_income | smartphone | race_label | state | year",
     "crumbs": [
       "Data Acquisition Project"
     ]
@@ -260,7 +260,7 @@
   {
     "objectID": "projects/data-acquisition.html#what-are-the-most-interesting-findings-of-your-eda",
     "href": "projects/data-acquisition.html#what-are-the-most-interesting-findings-of-your-eda",
-    "title": "",
+    "title": "Data Acquisition Project",
     "section": "What are the most interesting findings of your EDA?",
     "text": "What are the most interesting findings of your EDA?",
     "crumbs": [
@@ -270,7 +270,7 @@
   {
     "objectID": "projects/data-acquisition.html#links-to-find-further-information-and-or-resources",
     "href": "projects/data-acquisition.html#links-to-find-further-information-and-or-resources",
-    "title": "",
+    "title": "Data Acquisition Project",
     "section": "Links to find further information and /or resources",
     "text": "Links to find further information and /or resources",
     "crumbs": [
@@ -280,9 +280,19 @@
   {
     "objectID": "projects/data-acquisition.html#a-link-to-your-code-in-a-separate-github-repo",
     "href": "projects/data-acquisition.html#a-link-to-your-code-in-a-separate-github-repo",
-    "title": "",
+    "title": "Data Acquisition Project",
     "section": "A link to your code in a separate GitHub repo",
     "text": "A link to your code in a separate GitHub repo",
+    "crumbs": [
+      "Data Acquisition Project"
+    ]
+  },
+  {
+    "objectID": "projects/data-acquisition.html#introduction",
+    "href": "projects/data-acquisition.html#introduction",
+    "title": "Data Acquisition Project",
+    "section": "",
+    "text": "This project explores a large amount of data from The Census Bureau API. I pulled data from the state of California (my home state). I manipulated the data and cleaned it and then began to research questions I had. A lot of these questions are things that I wondered about in high school and ones that arose as I explored the dataset that I had curated.",
     "crumbs": [
       "Data Acquisition Project"
     ]
